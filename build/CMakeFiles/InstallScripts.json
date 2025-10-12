@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/cmake_install.cmake",
+		"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/QuarkEngine/cmake_install.cmake",
+		"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/QuarkGame/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

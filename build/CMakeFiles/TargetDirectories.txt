@@ -1,0 +1,4 @@
+C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/new user/OneDrive/Documents/QuarkEngine/build/QuarkEngine/CMakeFiles/QuarkEngine.dir
+C:/Users/new user/OneDrive/Documents/QuarkEngine/build/QuarkGame/CMakeFiles/QuarkGame.dir
