@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bimg\3rdparty\tinyexr\deps\miniz\miniz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bimg\src\image_decode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bimg\3rdparty\lodepng\lodepng.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bimg\3rdparty\lodepng\lodepng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bimg\3rdparty\tinyexr\deps\miniz\miniz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bimg\include\bimg\bimg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bimg\include\bimg\decode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bimg\include\bimg\encode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bimg\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{14E48386-0F47-3818-B7FE-12DA4395B39E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B4275AD3-354C-3655-BB7B-8FE3D569D392}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

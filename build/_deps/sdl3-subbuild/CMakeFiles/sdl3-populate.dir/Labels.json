@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate"
+		},
+		{
+			"file" : "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/sdl3-subbuild/CMakeFiles/40506e9c134b52b935372eb1d4d57bd4/sdl3-populate.rule"
+		},
+		{
+			"file" : "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/sdl3-subbuild/CMakeFiles/23a28fd6d79264e61ad375527503ebd8/sdl3-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/sdl3-subbuild/CMakeFiles/a36acf2665a7dd57968f020158dc2306/sdl3-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/sdl3-subbuild/CMakeFiles/a36acf2665a7dd57968f020158dc2306/sdl3-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/sdl3-subbuild/CMakeFiles/a36acf2665a7dd57968f020158dc2306/sdl3-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/sdl3-subbuild/CMakeFiles/a36acf2665a7dd57968f020158dc2306/sdl3-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/sdl3-subbuild/CMakeFiles/a36acf2665a7dd57968f020158dc2306/sdl3-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/sdl3-subbuild/CMakeFiles/a36acf2665a7dd57968f020158dc2306/sdl3-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/sdl3-subbuild/CMakeFiles/a36acf2665a7dd57968f020158dc2306/sdl3-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/sdl3-subbuild/CMakeFiles/a36acf2665a7dd57968f020158dc2306/sdl3-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sdl3-populate"
+		],
+		"name" : "sdl3-populate"
+	}
+}

@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F82046AF-F624-3375-89C5-F863F9FDF08F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>examples</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/bgfx-src/cmake/bgfx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/new user/OneDrive/Documents/QuarkEngine" "-BC:/Users/new user/OneDrive/Documents/QuarkEngine/build" --check-stamp-file "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/bgfx-build/cmake/bgfx/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeParseArguments.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\CMakeFiles\cmake.verify_globs;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\dear-imgui.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\fcpp.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\glsl-optimizer.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\glslang.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\meshoptimizer.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\spirv-cross.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\spirv-opt.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\webgpu.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\bgfx.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\examples.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\generated\shader.cpp.in;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\generated\vertexlayout.cpp.in;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\geometryc.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\geometryv.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\shaderc.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\shared.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\texturev.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\util\ConfigureDebugging.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfxToolUtils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/bgfx-src/cmake/bgfx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/new user/OneDrive/Documents/QuarkEngine" "-BC:/Users/new user/OneDrive/Documents/QuarkEngine/build" --check-stamp-file "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/bgfx-build/cmake/bgfx/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeParseArguments.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\CMakeFiles\cmake.verify_globs;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\dear-imgui.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\fcpp.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\glsl-optimizer.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\glslang.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\meshoptimizer.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\spirv-cross.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\spirv-opt.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\webgpu.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\bgfx.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\examples.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\generated\shader.cpp.in;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\generated\vertexlayout.cpp.in;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\geometryc.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\geometryv.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\shaderc.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\shared.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\texturev.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\util\ConfigureDebugging.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfxToolUtils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/bgfx-src/cmake/bgfx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/new user/OneDrive/Documents/QuarkEngine" "-BC:/Users/new user/OneDrive/Documents/QuarkEngine/build" --check-stamp-file "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/bgfx-build/cmake/bgfx/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeParseArguments.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\CMakeFiles\cmake.verify_globs;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\dear-imgui.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\fcpp.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\glsl-optimizer.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\glslang.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\meshoptimizer.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\spirv-cross.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\spirv-opt.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\webgpu.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\bgfx.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\examples.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\generated\shader.cpp.in;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\generated\vertexlayout.cpp.in;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\geometryc.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\geometryv.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\shaderc.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\shared.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\texturev.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\util\ConfigureDebugging.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfxToolUtils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/bgfx-src/cmake/bgfx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/new user/OneDrive/Documents/QuarkEngine" "-BC:/Users/new user/OneDrive/Documents/QuarkEngine/build" --check-stamp-file "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/bgfx-build/cmake/bgfx/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeParseArguments.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\CMakeFiles\cmake.verify_globs;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\dear-imgui.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\fcpp.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\glsl-optimizer.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\glslang.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\meshoptimizer.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\spirv-cross.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\spirv-opt.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\3rdparty\webgpu.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\bgfx.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\examples.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\generated\shader.cpp.in;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\generated\vertexlayout.cpp.in;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\geometryc.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\geometryv.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\shaderc.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\shared.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\texturev.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\util\ConfigureDebugging.cmake;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfxToolUtils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\ZERO_CHECK.vcxproj">
+      <Project>{FA061A64-6A87-360A-863C-0D46320D51D0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-00-helloworld.vcxproj">
+      <Project>{AD956344-D534-3262-A283-56C349B1AC92}</Project>
+      <Name>example-00-helloworld</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-01-cubes.vcxproj">
+      <Project>{C97230E4-AD37-3B50-8878-ABD26AEEE68A}</Project>
+      <Name>example-01-cubes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-02-metaballs.vcxproj">
+      <Project>{EA85EC7B-FC5A-35D7-BC0E-12A3F746D63A}</Project>
+      <Name>example-02-metaballs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-03-raymarch.vcxproj">
+      <Project>{58DC4F2B-8F70-3C1D-84FA-61605C8DADB5}</Project>
+      <Name>example-03-raymarch</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-04-mesh.vcxproj">
+      <Project>{8F4D93AA-9225-339F-9934-BD7C783AB28B}</Project>
+      <Name>example-04-mesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-05-instancing.vcxproj">
+      <Project>{315BD03E-55BD-3256-96A7-54F66AB4B519}</Project>
+      <Name>example-05-instancing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-06-bump.vcxproj">
+      <Project>{DE2E5D57-39E1-3A2E-AEC5-460B265B7B0B}</Project>
+      <Name>example-06-bump</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-07-callback.vcxproj">
+      <Project>{F1A18987-6A86-3823-B6D0-5B5FDEE5CEB2}</Project>
+      <Name>example-07-callback</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-08-update.vcxproj">
+      <Project>{6F15BB27-3737-30EA-A1D4-8CA3F5B615CF}</Project>
+      <Name>example-08-update</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-09-hdr.vcxproj">
+      <Project>{B6C7CD3B-2823-3990-B79E-B330FA7A1D80}</Project>
+      <Name>example-09-hdr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-10-font.vcxproj">
+      <Project>{ABCE32E8-D1CD-3180-9952-C12CCCCEBA4D}</Project>
+      <Name>example-10-font</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-11-fontsdf.vcxproj">
+      <Project>{BB08075E-2569-3AB6-8359-B99DEDE18C9C}</Project>
+      <Name>example-11-fontsdf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-12-lod.vcxproj">
+      <Project>{71FD87E0-F9AB-3EB3-9477-F0BE63673BC7}</Project>
+      <Name>example-12-lod</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-13-stencil.vcxproj">
+      <Project>{3C9BD2D5-B930-3D4E-B2FA-63B1334E91BE}</Project>
+      <Name>example-13-stencil</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-14-shadowvolumes.vcxproj">
+      <Project>{E2F8D76E-D31C-37B6-8AD4-D7AC86519867}</Project>
+      <Name>example-14-shadowvolumes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-15-shadowmaps-simple.vcxproj">
+      <Project>{9FB744A3-5564-3DE9-98CF-4A9B2DFD89B9}</Project>
+      <Name>example-15-shadowmaps-simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-16-shadowmaps.vcxproj">
+      <Project>{3EA38E19-80BC-3757-9870-56BED6FBA5C7}</Project>
+      <Name>example-16-shadowmaps</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-17-drawstress.vcxproj">
+      <Project>{207DA5D1-2534-38B3-8153-4F6E6ED2E113}</Project>
+      <Name>example-17-drawstress</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-18-ibl.vcxproj">
+      <Project>{D58EF6C3-2154-361C-A413-251FE9BE35A5}</Project>
+      <Name>example-18-ibl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-19-oit.vcxproj">
+      <Project>{66B0AFCE-3069-36C7-ACFE-8B34D8E5E3DA}</Project>
+      <Name>example-19-oit</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-20-nanovg.vcxproj">
+      <Project>{74B929A8-9506-3A4B-9C81-3AFA1A32C4F3}</Project>
+      <Name>example-20-nanovg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-22-windows.vcxproj">
+      <Project>{8E707FD1-AFA2-3878-9ED7-4E471A094B22}</Project>
+      <Name>example-22-windows</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-23-vectordisplay.vcxproj">
+      <Project>{3A42E3AD-7E21-3890-AE3E-C3DC3743AD43}</Project>
+      <Name>example-23-vectordisplay</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-24-nbody.vcxproj">
+      <Project>{595D43CA-5AD1-3D81-A869-18F0C2CE8683}</Project>
+      <Name>example-24-nbody</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-25-c99.vcxproj">
+      <Project>{655998DA-0EB0-3184-A533-9A839A99D858}</Project>
+      <Name>example-25-c99</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-26-occlusion.vcxproj">
+      <Project>{A11B8EEC-D2C0-3E71-90D1-A9B9C76EC0F3}</Project>
+      <Name>example-26-occlusion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-27-terrain.vcxproj">
+      <Project>{18F98AD3-D3F3-3679-A188-54232AF9B12C}</Project>
+      <Name>example-27-terrain</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-28-wireframe.vcxproj">
+      <Project>{17677B43-B522-3E12-980F-16F099EA8431}</Project>
+      <Name>example-28-wireframe</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-29-debugdraw.vcxproj">
+      <Project>{C751D464-F831-3B35-9205-9EADF474A728}</Project>
+      <Name>example-29-debugdraw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-30-picking.vcxproj">
+      <Project>{B6344310-BFC0-3BCF-9469-C26A618F7320}</Project>
+      <Name>example-30-picking</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-31-rsm.vcxproj">
+      <Project>{89CB7ECF-F7C9-3511-97E5-4F9151C12E74}</Project>
+      <Name>example-31-rsm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-32-particles.vcxproj">
+      <Project>{F754C239-8AA7-382B-A3DA-3F58E2B2395B}</Project>
+      <Name>example-32-particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-33-pom.vcxproj">
+      <Project>{0EFE6EA8-CEBF-30F2-9735-D758592DD55A}</Project>
+      <Name>example-33-pom</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-34-mvs.vcxproj">
+      <Project>{BC438E1F-B667-37B2-9881-1B3BBDC6A9AD}</Project>
+      <Name>example-34-mvs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-35-dynamic.vcxproj">
+      <Project>{C3E2BE40-3DB9-3A08-9910-CBAE9F0A2413}</Project>
+      <Name>example-35-dynamic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-36-sky.vcxproj">
+      <Project>{0367B379-E874-305F-BBA2-9DED963E90F1}</Project>
+      <Name>example-36-sky</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-38-bloom.vcxproj">
+      <Project>{E76ABCF0-8258-3535-BAF0-3C98D39BFBBD}</Project>
+      <Name>example-38-bloom</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-39-assao.vcxproj">
+      <Project>{C5878AFE-0A00-33C0-845E-9E9F06D8B055}</Project>
+      <Name>example-39-assao</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-40-svt.vcxproj">
+      <Project>{566D3202-54EA-3511-B374-D1645A3DAE5B}</Project>
+      <Name>example-40-svt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-42-bunnylod.vcxproj">
+      <Project>{7A9D1496-45E6-3B7F-B870-32984C2A52B1}</Project>
+      <Name>example-42-bunnylod</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-43-denoise.vcxproj">
+      <Project>{A9DF3F20-FCE2-386C-BE0A-5BEC849F6BB8}</Project>
+      <Name>example-43-denoise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-44-sss.vcxproj">
+      <Project>{2A65CEF7-EB16-32D5-AFCB-D6454089768F}</Project>
+      <Name>example-44-sss</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-45-bokeh.vcxproj">
+      <Project>{95C94D44-1DD1-385C-9615-B9039FF30D44}</Project>
+      <Name>example-45-bokeh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-46-fsr.vcxproj">
+      <Project>{9E16E374-3C8E-3A39-B6EB-56546A3C6549}</Project>
+      <Name>example-46-fsr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\example-47-pixelformats.vcxproj">
+      <Project>{93678503-075E-30BA-851C-C24DD6A14D46}</Project>
+      <Name>example-47-pixelformats</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

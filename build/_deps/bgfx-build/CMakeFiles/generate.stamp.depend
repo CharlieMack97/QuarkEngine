@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.1/Modules/BasicConfigVersion-SameMinorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/cmake.verify_globs
+C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/bgfx-src/CMakeLists.txt
+C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/bgfx-src/cmake/Config.cmake.in
+C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/bgfx-src/cmake/version.cmake

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\bgfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\debug_renderdoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\dxgi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\glcontext_egl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\glcontext_html5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\glcontext_wgl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\nvapi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\renderer_agc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\renderer_d3d11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\renderer_d3d12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\renderer_gl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\renderer_gnm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\renderer_noop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\renderer_nvn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\renderer_vk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\shader_dxbc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\shader_spirv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\topology.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\vertexlayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\include\bgfx\bgfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\include\bgfx\c99\bgfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\include\bgfx\defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\include\bgfx\embedded_shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\include\bgfx\platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\amalgamated.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\amalgamated.mm">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\bgfx_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\charset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\debug_renderdoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\dxgi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\emscripten.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\fs_clear0.bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\fs_clear1.bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\fs_clear2.bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\fs_clear3.bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\fs_clear4.bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\fs_clear5.bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\fs_clear6.bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\fs_clear7.bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\fs_debugfont.bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\glcontext_egl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\glcontext_html5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\glcontext_wgl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\glimports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\nvapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\renderer_d3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\renderer_d3d11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\renderer_d3d12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\renderer_gl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\renderer_mtl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\renderer_mtl.mm">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\renderer_vk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\shader_dxbc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\shader_spirv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\topology.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\vertexlayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\vs_clear.bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\src\vs_debugfont.bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\cmake\bgfx\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{14E48386-0F47-3818-B7FE-12DA4395B39E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B4275AD3-354C-3655-BB7B-8FE3D569D392}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

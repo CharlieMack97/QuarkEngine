@@ -86,7 +86,8 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-build\include-revision;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-src\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bimg\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\3rdparty;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include\compat\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -103,16 +104,17 @@
       <SupportJustMyCode></SupportJustMyCode>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SDL_MAIN_HANDLED;BX_CONFIG_DEBUG=1;BGFX_CONFIG_DEBUG_ANNOTATION=1;BGFX_CONFIG_MULTITHREADED=1;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SDL_MAIN_HANDLED;BX_CONFIG_DEBUG=1;BGFX_CONFIG_DEBUG_ANNOTATION=1;BGFX_CONFIG_MULTITHREADED=1;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-build\include-revision;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-src\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bimg\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\3rdparty;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include\compat\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-build\include-revision;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-src\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bimg\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\3rdparty;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include\compat\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -120,7 +122,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\QuarkEngine\Debug\QuarkEngine.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\QuarkEngine\Debug\QuarkEngine.lib;..\_deps\sdl3-build\Debug\SDL3.lib;..\_deps\bgfx-build\cmake\bgfx\Debug\bgfx.lib;..\_deps\bgfx-build\cmake\bimg\Debug\bimg.lib;..\_deps\bgfx-build\cmake\bx\Debug\bx.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -139,7 +141,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-build\include-revision;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-src\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bimg\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\3rdparty;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include\compat\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -155,18 +158,19 @@
       <SupportJustMyCode></SupportJustMyCode>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SDL_MAIN_HANDLED;BX_CONFIG_DEBUG=0;BGFX_CONFIG_DEBUG_ANNOTATION=0;BGFX_CONFIG_MULTITHREADED=1;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SDL_MAIN_HANDLED;BX_CONFIG_DEBUG=0;BGFX_CONFIG_DEBUG_ANNOTATION=0;BGFX_CONFIG_MULTITHREADED=1;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-build\include-revision;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-src\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bimg\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\3rdparty;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include\compat\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-build\include-revision;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-src\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bimg\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\3rdparty;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include\compat\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -174,7 +178,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\QuarkEngine\Release\QuarkEngine.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\QuarkEngine\Release\QuarkEngine.lib;..\_deps\sdl3-build\Release\SDL3.lib;..\_deps\bgfx-build\cmake\bgfx\Release\bgfx.lib;..\_deps\bgfx-build\cmake\bimg\Release\bimg.lib;..\_deps\bgfx-build\cmake\bx\Release\bx.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -193,7 +197,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-build\include-revision;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-src\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bimg\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\3rdparty;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include\compat\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -209,18 +214,19 @@
       <SupportJustMyCode></SupportJustMyCode>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SDL_MAIN_HANDLED;BX_CONFIG_DEBUG=0;BGFX_CONFIG_DEBUG_ANNOTATION=0;BGFX_CONFIG_MULTITHREADED=1;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SDL_MAIN_HANDLED;BX_CONFIG_DEBUG=0;BGFX_CONFIG_DEBUG_ANNOTATION=0;BGFX_CONFIG_MULTITHREADED=1;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-build\include-revision;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-src\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bimg\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\3rdparty;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include\compat\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-build\include-revision;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-src\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bimg\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\3rdparty;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include\compat\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -228,7 +234,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\QuarkEngine\MinSizeRel\QuarkEngine.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\QuarkEngine\MinSizeRel\QuarkEngine.lib;..\_deps\sdl3-build\MinSizeRel\SDL3.lib;..\_deps\bgfx-build\cmake\bgfx\MinSizeRel\bgfx.lib;..\_deps\bgfx-build\cmake\bimg\MinSizeRel\bimg.lib;..\_deps\bgfx-build\cmake\bx\MinSizeRel\bx.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -247,7 +253,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-build\include-revision;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-src\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bimg\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\3rdparty;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include\compat\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -264,16 +271,17 @@
       <SupportJustMyCode></SupportJustMyCode>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SDL_MAIN_HANDLED;BX_CONFIG_DEBUG=0;BGFX_CONFIG_DEBUG_ANNOTATION=0;BGFX_CONFIG_MULTITHREADED=1;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SDL_MAIN_HANDLED;BX_CONFIG_DEBUG=0;BGFX_CONFIG_DEBUG_ANNOTATION=0;BGFX_CONFIG_MULTITHREADED=1;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-build\include-revision;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-src\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bimg\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\3rdparty;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include\compat\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\new user\OneDrive\Documents\QuarkEngine\QuarkEngine;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-build\include-revision;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-src\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bgfx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bimg\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\3rdparty;C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-src\bx\include\compat\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -281,7 +289,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\QuarkEngine\RelWithDebInfo\QuarkEngine.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\QuarkEngine\RelWithDebInfo\QuarkEngine.lib;..\_deps\sdl3-build\RelWithDebInfo\SDL3.lib;..\_deps\bgfx-build\cmake\bgfx\RelWithDebInfo\bgfx.lib;..\_deps\bgfx-build\cmake\bimg\RelWithDebInfo\bimg.lib;..\_deps\bgfx-build\cmake\bx\RelWithDebInfo\bx.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -311,7 +319,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\new user\OneDrive\Documents\QuarkEngine\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\new user\OneDrive\Documents\QuarkEngine\build\QuarkGame\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/new user/OneDrive/Documents/QuarkEngine/QuarkGame/CMakeLists.txt</Message>
@@ -324,7 +332,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\new user\OneDrive\Documents\QuarkEngine\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\new user\OneDrive\Documents\QuarkEngine\build\QuarkGame\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/new user/OneDrive/Documents/QuarkEngine/QuarkGame/CMakeLists.txt</Message>
@@ -337,7 +345,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\new user\OneDrive\Documents\QuarkEngine\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\new user\OneDrive\Documents\QuarkEngine\build\QuarkGame\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/new user/OneDrive/Documents/QuarkEngine/QuarkGame/CMakeLists.txt</Message>
@@ -350,7 +358,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\new user\OneDrive\Documents\QuarkEngine\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\new user\OneDrive\Documents\QuarkEngine\build\QuarkGame\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
@@ -369,6 +377,22 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\QuarkEngine\QuarkEngine.vcxproj">
       <Project>{EB79E674-5FA6-32EE-A449-382D573C508F}</Project>
       <Name>QuarkEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\sdl3-build\SDL3-shared.vcxproj">
+      <Project>{9F3EDE50-C139-3DD7-9E51-E9007B8BF221}</Project>
+      <Name>SDL3-shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bgfx\bgfx.vcxproj">
+      <Project>{7E9B9503-7D96-3A6D-9F5C-36BD920E9246}</Project>
+      <Name>bgfx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bimg\bimg.vcxproj">
+      <Project>{3192ECA9-746D-32F3-ADD4-BC6390D02C00}</Project>
+      <Name>bimg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-build\cmake\bx\bx.vcxproj">
+      <Project>{28EBD464-A021-3C61-BECA-C288D6063DFC}</Project>
+      <Name>bx</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

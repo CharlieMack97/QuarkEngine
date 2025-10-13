@@ -91,6 +91,12 @@ C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/XLClang-CXX-DetermineCom
 C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/zOS-C-DetermineCompiler.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/CompilerId/VS-10.vcxproj.in
+C:/Program Files/CMake/share/cmake-4.1/Modules/ExternalProject/shared_internal_commands.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent/CMakeLists.cmake.in
+C:/Program Files/CMake/share/cmake-4.1/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/FindPackageMessage.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake
@@ -116,3 +122,4 @@ C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/4.1.1/CMakeCCo
 C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/4.1.1/CMakeCXXCompiler.cmake
 C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/4.1.1/CMakeRCCompiler.cmake
 C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/4.1.1/CMakeSystem.cmake
+C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/cmake.verify_globs

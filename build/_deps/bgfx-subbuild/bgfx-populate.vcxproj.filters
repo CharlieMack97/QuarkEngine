@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-subbuild\CMakeFiles\dacc8dbbc70c052bada02bcd6ad09a7f\bgfx-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-subbuild\CMakeFiles\dacc8dbbc70c052bada02bcd6ad09a7f\bgfx-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-subbuild\CMakeFiles\dacc8dbbc70c052bada02bcd6ad09a7f\bgfx-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-subbuild\CMakeFiles\dacc8dbbc70c052bada02bcd6ad09a7f\bgfx-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-subbuild\CMakeFiles\dacc8dbbc70c052bada02bcd6ad09a7f\bgfx-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-subbuild\CMakeFiles\dacc8dbbc70c052bada02bcd6ad09a7f\bgfx-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-subbuild\CMakeFiles\dacc8dbbc70c052bada02bcd6ad09a7f\bgfx-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-subbuild\CMakeFiles\dacc8dbbc70c052bada02bcd6ad09a7f\bgfx-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-subbuild\CMakeFiles\d0671cf0d042da4c2b3973ba1dd739b6\bgfx-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-subbuild\CMakeFiles\780a3068564263776798ea912b8c70ac\bgfx-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\new user\OneDrive\Documents\QuarkEngine\build\_deps\bgfx-subbuild\CMakeFiles\bgfx-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9F59DF4A-95AF-3747-8F84-D8CFA520D3C9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
