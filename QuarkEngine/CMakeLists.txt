@@ -1,17 +1,8 @@
 include(FetchContent)
 
 # Tell SDL to build as a shared library (must be set BEFORE FetchContent_Declare)
-set(SDL_SHARED ON CACHE BOOL "Build SDL as shared library" FORCE)
-set(SDL_STATIC OFF CACHE BOOL "Disable static SDL library" FORCE)
-
-FetchContent_Declare(
-    SDL3
-    GIT_REPOSITORY https://github.com/libsdl-org/SDL.git
-    GIT_TAG main
-)
-
-
-FetchContent_MakeAvailable(SDL3)
+# set(SDL_SHARED ON CACHE BOOL "Build SDL as shared library" FORCE)
+# set(SDL_STATIC OFF CACHE BOOL "Disable static SDL library" FORCE)
 
 # Create your engine library
 add_library(QuarkEngine STATIC

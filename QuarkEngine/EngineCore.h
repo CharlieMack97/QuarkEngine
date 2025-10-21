@@ -3,6 +3,10 @@
 #include <iostream>
 #include "SDL3/SDL_main.h"
 #include "bgfx/bgfx.h"
+
+
+#include <bx/uint32_t.h>
+
 class EngineCore {
 public:
     EngineCore();

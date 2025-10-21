@@ -88,7 +88,7 @@ events:
       The output was:
       0
       MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-      Build started 10/13/2025 11:21:46 PM.
+      Build started 10/15/2025 12:29:56 AM.
       
       Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -117,7 +117,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.38
+      Time Elapsed 00:00:00.40
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -838,7 +838,7 @@ events:
       The output was:
       0
       MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-      Build started 10/13/2025 11:21:47 PM.
+      Build started 10/15/2025 12:29:56 AM.
       
       Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -867,7 +867,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.38
+      Time Elapsed 00:00:00.40
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -1295,8 +1295,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-pbf8x0"
-      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-pbf8x0"
+      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-6m5z8z"
+      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-6m5z8z"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1305,40 +1305,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-pbf8x0'
+        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-6m5z8z'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_75189.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4b4d1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-        Build started 10/13/2025 11:21:48 PM.
+        Build started 10/15/2025 12:29:57 AM.
         
-        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbf8x0\\cmTC_75189.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6m5z8z\\cmTC_4b4d1.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_75189.dir\\Debug\\".
+          Creating directory "cmTC_4b4d1.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbf8x0\\Debug\\".
-          Creating directory "cmTC_75189.dir\\Debug\\cmTC_75189.tlog\\".
+          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6m5z8z\\Debug\\".
+          Creating directory "cmTC_4b4d1.dir\\Debug\\cmTC_4b4d1.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_75189.dir\\Debug\\cmTC_75189.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_75189.dir\\Debug\\cmTC_75189.tlog\\unsuccessfulbuild".
+          Creating "cmTC_4b4d1.dir\\Debug\\cmTC_4b4d1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4b4d1.dir\\Debug\\cmTC_4b4d1.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_75189.dir\\Debug\\\\" /Fd"cmTC_75189.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_4b4d1.dir\\Debug\\\\" /Fd"cmTC_4b4d1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_75189.dir\\Debug\\\\" /Fd"cmTC_75189.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_4b4d1.dir\\Debug\\\\" /Fd"cmTC_4b4d1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbf8x0\\Debug\\cmTC_75189.exe" /INCREMENTAL /ILK:"cmTC_75189.dir\\Debug\\cmTC_75189.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-pbf8x0/Debug/cmTC_75189.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-pbf8x0/Debug/cmTC_75189.lib" /MACHINE:X64  /machine:x64 cmTC_75189.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_75189.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbf8x0\\Debug\\cmTC_75189.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6m5z8z\\Debug\\cmTC_4b4d1.exe" /INCREMENTAL /ILK:"cmTC_4b4d1.dir\\Debug\\cmTC_4b4d1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-6m5z8z/Debug/cmTC_4b4d1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-6m5z8z/Debug/cmTC_4b4d1.lib" /MACHINE:X64  /machine:x64 cmTC_4b4d1.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_4b4d1.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6m5z8z\\Debug\\cmTC_4b4d1.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_75189.dir\\Debug\\cmTC_75189.tlog\\unsuccessfulbuild".
-          Touching "cmTC_75189.dir\\Debug\\cmTC_75189.tlog\\cmTC_75189.lastbuildstate".
-        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbf8x0\\cmTC_75189.vcxproj" (default targets).
+          Deleting file "cmTC_4b4d1.dir\\Debug\\cmTC_4b4d1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4b4d1.dir\\Debug\\cmTC_4b4d1.tlog\\cmTC_4b4d1.lastbuildstate".
+        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6m5z8z\\cmTC_4b4d1.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.36
+        Time Elapsed 00:00:00.39
         
       exitCode: 0
   -
@@ -1378,8 +1378,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-d0miud"
-      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-d0miud"
+      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-i734bb"
+      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-i734bb"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1389,40 +1389,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-d0miud'
+        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-i734bb'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b0c35.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8a8df.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-        Build started 10/13/2025 11:21:49 PM.
+        Build started 10/15/2025 12:29:57 AM.
         
-        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0miud\\cmTC_b0c35.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i734bb\\cmTC_8a8df.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_b0c35.dir\\Debug\\".
+          Creating directory "cmTC_8a8df.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0miud\\Debug\\".
-          Creating directory "cmTC_b0c35.dir\\Debug\\cmTC_b0c35.tlog\\".
+          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i734bb\\Debug\\".
+          Creating directory "cmTC_8a8df.dir\\Debug\\cmTC_8a8df.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_b0c35.dir\\Debug\\cmTC_b0c35.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_b0c35.dir\\Debug\\cmTC_b0c35.tlog\\unsuccessfulbuild".
+          Creating "cmTC_8a8df.dir\\Debug\\cmTC_8a8df.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8a8df.dir\\Debug\\cmTC_8a8df.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_b0c35.dir\\Debug\\\\" /Fd"cmTC_b0c35.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_8a8df.dir\\Debug\\\\" /Fd"cmTC_8a8df.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_b0c35.dir\\Debug\\\\" /Fd"cmTC_b0c35.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_8a8df.dir\\Debug\\\\" /Fd"cmTC_8a8df.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0miud\\Debug\\cmTC_b0c35.exe" /INCREMENTAL /ILK:"cmTC_b0c35.dir\\Debug\\cmTC_b0c35.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-d0miud/Debug/cmTC_b0c35.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-d0miud/Debug/cmTC_b0c35.lib" /MACHINE:X64  /machine:x64 cmTC_b0c35.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_b0c35.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0miud\\Debug\\cmTC_b0c35.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i734bb\\Debug\\cmTC_8a8df.exe" /INCREMENTAL /ILK:"cmTC_8a8df.dir\\Debug\\cmTC_8a8df.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-i734bb/Debug/cmTC_8a8df.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-i734bb/Debug/cmTC_8a8df.lib" /MACHINE:X64  /machine:x64 cmTC_8a8df.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_8a8df.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i734bb\\Debug\\cmTC_8a8df.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_b0c35.dir\\Debug\\cmTC_b0c35.tlog\\unsuccessfulbuild".
-          Touching "cmTC_b0c35.dir\\Debug\\cmTC_b0c35.tlog\\cmTC_b0c35.lastbuildstate".
-        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0miud\\cmTC_b0c35.vcxproj" (default targets).
+          Deleting file "cmTC_8a8df.dir\\Debug\\cmTC_8a8df.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8a8df.dir\\Debug\\cmTC_8a8df.tlog\\cmTC_8a8df.lastbuildstate".
+        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i734bb\\cmTC_8a8df.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.37
+        Time Elapsed 00:00:00.39
         
       exitCode: 0
   -
@@ -1704,8 +1704,8 @@ events:
     checks:
       - "Performing Test flag_supported"
     directories:
-      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-dkwdvu"
-      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-dkwdvu"
+      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-bjqjbn"
+      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-bjqjbn"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1715,39 +1715,39 @@ events:
       variable: "flag_supported"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-dkwdvu'
+        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-bjqjbn'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_497ef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_824ef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-        Build started 10/13/2025 11:22:14 PM.
+        Build started 10/15/2025 12:30:19 AM.
         
-        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dkwdvu\\cmTC_497ef.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bjqjbn\\cmTC_824ef.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_497ef.dir\\Debug\\".
+          Creating directory "cmTC_824ef.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dkwdvu\\Debug\\".
-          Creating directory "cmTC_497ef.dir\\Debug\\cmTC_497ef.tlog\\".
+          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bjqjbn\\Debug\\".
+          Creating directory "cmTC_824ef.dir\\Debug\\cmTC_824ef.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_497ef.dir\\Debug\\cmTC_497ef.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_497ef.dir\\Debug\\cmTC_497ef.tlog\\unsuccessfulbuild".
+          Creating "cmTC_824ef.dir\\Debug\\cmTC_824ef.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_824ef.dir\\Debug\\cmTC_824ef.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D flag_supported /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /std:c++17 /Fo"cmTC_497ef.dir\\Debug\\\\" /Fd"cmTC_497ef.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -Wno-implicit-fallthrough "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dkwdvu\\src.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D flag_supported /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /std:c++17 /Fo"cmTC_824ef.dir\\Debug\\\\" /Fd"cmTC_824ef.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -Wno-implicit-fallthrough "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bjqjbn\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D flag_supported /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /std:c++17 /Fo"cmTC_497ef.dir\\Debug\\\\" /Fd"cmTC_497ef.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -Wno-implicit-fallthrough "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dkwdvu\\src.cxx"
-        cl : command line  error D8021: invalid numeric argument '/Wno-implicit-fallthrough' [C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dkwdvu\\cmTC_497ef.vcxproj]
-        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dkwdvu\\cmTC_497ef.vcxproj" (default targets) -- FAILED.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D flag_supported /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /std:c++17 /Fo"cmTC_824ef.dir\\Debug\\\\" /Fd"cmTC_824ef.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -Wno-implicit-fallthrough "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bjqjbn\\src.cxx"
+        cl : command line  error D8021: invalid numeric argument '/Wno-implicit-fallthrough' [C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bjqjbn\\cmTC_824ef.vcxproj]
+        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bjqjbn\\cmTC_824ef.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dkwdvu\\cmTC_497ef.vcxproj" (default target) (1) ->
+        "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bjqjbn\\cmTC_824ef.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          cl : command line  error D8021: invalid numeric argument '/Wno-implicit-fallthrough' [C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dkwdvu\\cmTC_497ef.vcxproj]
+          cl : command line  error D8021: invalid numeric argument '/Wno-implicit-fallthrough' [C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bjqjbn\\cmTC_824ef.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.20
+        Time Elapsed 00:00:00.22
         
       exitCode: 1
   -
@@ -2237,38 +2237,38 @@ events:
       stdout: |
         Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/sdl3-build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_56a35.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e9bc7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-        Build started 10/13/2025 11:22:26 PM.
+        Build started 10/15/2025 12:30:32 AM.
         
-        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_56a35.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_e9bc7.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_56a35.dir\\Debug\\".
+          Creating directory "cmTC_e9bc7.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
           Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\".
-          Creating directory "cmTC_56a35.dir\\Debug\\cmTC_56a35.tlog\\".
+          Creating directory "cmTC_e9bc7.dir\\Debug\\cmTC_e9bc7.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_56a35.dir\\Debug\\cmTC_56a35.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_56a35.dir\\Debug\\cmTC_56a35.tlog\\unsuccessfulbuild".
+          Creating "cmTC_e9bc7.dir\\Debug\\cmTC_e9bc7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e9bc7.dir\\Debug\\cmTC_e9bc7.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_56a35.dir\\Debug\\\\" /Fd"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_56a35.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_e9bc7.dir\\Debug\\\\" /Fd"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_e9bc7.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_56a35.dir\\Debug\\\\" /Fd"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_56a35.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_e9bc7.dir\\Debug\\\\" /Fd"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_e9bc7.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
           SDL_detect_arch.c
         Lib:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_56a35.lib" /NOLOGO /MACHINE:X64  /machine:x64 cmTC_56a35.dir\\Debug\\SDL_detect_arch.obj
-          cmTC_56a35.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_56a35.lib
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_e9bc7.lib" /NOLOGO /MACHINE:X64  /machine:x64 cmTC_e9bc7.dir\\Debug\\SDL_detect_arch.obj
+          cmTC_e9bc7.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_e9bc7.lib
         FinalizeBuildStatus:
-          Deleting file "cmTC_56a35.dir\\Debug\\cmTC_56a35.tlog\\unsuccessfulbuild".
-          Touching "cmTC_56a35.dir\\Debug\\cmTC_56a35.tlog\\cmTC_56a35.lastbuildstate".
-        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_56a35.vcxproj" (default targets).
+          Deleting file "cmTC_e9bc7.dir\\Debug\\cmTC_e9bc7.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e9bc7.dir\\Debug\\cmTC_e9bc7.tlog\\cmTC_e9bc7.lastbuildstate".
+        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_e9bc7.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.34
+        Time Elapsed 00:00:00.32
         
       exitCode: 0
   -
@@ -2281,8 +2281,8 @@ events:
     checks:
       - "Performing Test CAN_PRESEED"
     directories:
-      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-qapqnp"
-      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-qapqnp"
+      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-pcluyw"
+      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-pcluyw"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2292,40 +2292,40 @@ events:
       variable: "CAN_PRESEED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-qapqnp'
+        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-pcluyw'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_205d3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_21b84.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-        Build started 10/13/2025 11:22:27 PM.
+        Build started 10/15/2025 12:30:33 AM.
         
-        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qapqnp\\cmTC_205d3.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pcluyw\\cmTC_21b84.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_205d3.dir\\Debug\\".
+          Creating directory "cmTC_21b84.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qapqnp\\Debug\\".
-          Creating directory "cmTC_205d3.dir\\Debug\\cmTC_205d3.tlog\\".
+          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pcluyw\\Debug\\".
+          Creating directory "cmTC_21b84.dir\\Debug\\cmTC_21b84.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_205d3.dir\\Debug\\cmTC_205d3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_205d3.dir\\Debug\\cmTC_205d3.tlog\\unsuccessfulbuild".
+          Creating "cmTC_21b84.dir\\Debug\\cmTC_21b84.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_21b84.dir\\Debug\\cmTC_21b84.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D CAN_PRESEED /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_205d3.dir\\Debug\\\\" /Fd"cmTC_205d3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qapqnp\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D CAN_PRESEED /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_21b84.dir\\Debug\\\\" /Fd"cmTC_21b84.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pcluyw\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D CAN_PRESEED /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_205d3.dir\\Debug\\\\" /Fd"cmTC_205d3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qapqnp\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D CAN_PRESEED /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_21b84.dir\\Debug\\\\" /Fd"cmTC_21b84.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pcluyw\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qapqnp\\Debug\\cmTC_205d3.exe" /INCREMENTAL /ILK:"cmTC_205d3.dir\\Debug\\cmTC_205d3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-qapqnp/Debug/cmTC_205d3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-qapqnp/Debug/cmTC_205d3.lib" /MACHINE:X64  /machine:x64 cmTC_205d3.dir\\Debug\\src.obj
-          cmTC_205d3.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qapqnp\\Debug\\cmTC_205d3.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pcluyw\\Debug\\cmTC_21b84.exe" /INCREMENTAL /ILK:"cmTC_21b84.dir\\Debug\\cmTC_21b84.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-pcluyw/Debug/cmTC_21b84.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-pcluyw/Debug/cmTC_21b84.lib" /MACHINE:X64  /machine:x64 cmTC_21b84.dir\\Debug\\src.obj
+          cmTC_21b84.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pcluyw\\Debug\\cmTC_21b84.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_205d3.dir\\Debug\\cmTC_205d3.tlog\\unsuccessfulbuild".
-          Touching "cmTC_205d3.dir\\Debug\\cmTC_205d3.tlog\\cmTC_205d3.lastbuildstate".
-        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qapqnp\\cmTC_205d3.vcxproj" (default targets).
+          Deleting file "cmTC_21b84.dir\\Debug\\cmTC_21b84.tlog\\unsuccessfulbuild".
+          Touching "cmTC_21b84.dir\\Debug\\cmTC_21b84.tlog\\cmTC_21b84.lastbuildstate".
+        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pcluyw\\cmTC_21b84.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.40
+        Time Elapsed 00:00:00.42
         
       exitCode: 0
   -
@@ -2338,8 +2338,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_MMX"
     directories:
-      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-y8aev3"
-      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-y8aev3"
+      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-9ljhn6"
+      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-9ljhn6"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2349,40 +2349,40 @@ events:
       variable: "COMPILER_SUPPORTS_MMX"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-y8aev3'
+        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-9ljhn6'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f9ddd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1783c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-        Build started 10/13/2025 11:22:27 PM.
+        Build started 10/15/2025 12:30:33 AM.
         
-        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y8aev3\\cmTC_f9ddd.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ljhn6\\cmTC_1783c.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_f9ddd.dir\\Debug\\".
+          Creating directory "cmTC_1783c.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y8aev3\\Debug\\".
-          Creating directory "cmTC_f9ddd.dir\\Debug\\cmTC_f9ddd.tlog\\".
+          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ljhn6\\Debug\\".
+          Creating directory "cmTC_1783c.dir\\Debug\\cmTC_1783c.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_f9ddd.dir\\Debug\\cmTC_f9ddd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_f9ddd.dir\\Debug\\cmTC_f9ddd.tlog\\unsuccessfulbuild".
+          Creating "cmTC_1783c.dir\\Debug\\cmTC_1783c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1783c.dir\\Debug\\cmTC_1783c.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_f9ddd.dir\\Debug\\\\" /Fd"cmTC_f9ddd.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y8aev3\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_1783c.dir\\Debug\\\\" /Fd"cmTC_1783c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ljhn6\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_f9ddd.dir\\Debug\\\\" /Fd"cmTC_f9ddd.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y8aev3\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_1783c.dir\\Debug\\\\" /Fd"cmTC_1783c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ljhn6\\src.c"
           src.c
-        C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y8aev3\\src.c(15,25): error C2440: '=': cannot convert from 'int' to '__m64' [C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y8aev3\\cmTC_f9ddd.vcxproj]
-        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y8aev3\\cmTC_f9ddd.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ljhn6\\src.c(15,25): error C2440: '=': cannot convert from 'int' to '__m64' [C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ljhn6\\cmTC_1783c.vcxproj]
+        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ljhn6\\cmTC_1783c.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y8aev3\\cmTC_f9ddd.vcxproj" (default target) (1) ->
+        "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ljhn6\\cmTC_1783c.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y8aev3\\src.c(15,25): error C2440: '=': cannot convert from 'int' to '__m64' [C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y8aev3\\cmTC_f9ddd.vcxproj]
+          C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ljhn6\\src.c(15,25): error C2440: '=': cannot convert from 'int' to '__m64' [C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ljhn6\\cmTC_1783c.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.24
+        Time Elapsed 00:00:00.23
         
       exitCode: 1
   -
@@ -2395,8 +2395,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE"
     directories:
-      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-r3sr7e"
-      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-r3sr7e"
+      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-7t1hy6"
+      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-7t1hy6"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2406,40 +2406,40 @@ events:
       variable: "COMPILER_SUPPORTS_SSE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-r3sr7e'
+        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-7t1hy6'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2a8af.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_25ac6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-        Build started 10/13/2025 11:22:28 PM.
+        Build started 10/15/2025 12:30:34 AM.
         
-        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r3sr7e\\cmTC_2a8af.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7t1hy6\\cmTC_25ac6.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_2a8af.dir\\Debug\\".
+          Creating directory "cmTC_25ac6.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r3sr7e\\Debug\\".
-          Creating directory "cmTC_2a8af.dir\\Debug\\cmTC_2a8af.tlog\\".
+          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7t1hy6\\Debug\\".
+          Creating directory "cmTC_25ac6.dir\\Debug\\cmTC_25ac6.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_2a8af.dir\\Debug\\cmTC_2a8af.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_2a8af.dir\\Debug\\cmTC_2a8af.tlog\\unsuccessfulbuild".
+          Creating "cmTC_25ac6.dir\\Debug\\cmTC_25ac6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_25ac6.dir\\Debug\\cmTC_25ac6.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_2a8af.dir\\Debug\\\\" /Fd"cmTC_2a8af.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r3sr7e\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_25ac6.dir\\Debug\\\\" /Fd"cmTC_25ac6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7t1hy6\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_2a8af.dir\\Debug\\\\" /Fd"cmTC_2a8af.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r3sr7e\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_25ac6.dir\\Debug\\\\" /Fd"cmTC_25ac6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7t1hy6\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r3sr7e\\Debug\\cmTC_2a8af.exe" /INCREMENTAL /ILK:"cmTC_2a8af.dir\\Debug\\cmTC_2a8af.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-r3sr7e/Debug/cmTC_2a8af.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-r3sr7e/Debug/cmTC_2a8af.lib" /MACHINE:X64  /machine:x64 cmTC_2a8af.dir\\Debug\\src.obj
-          cmTC_2a8af.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r3sr7e\\Debug\\cmTC_2a8af.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7t1hy6\\Debug\\cmTC_25ac6.exe" /INCREMENTAL /ILK:"cmTC_25ac6.dir\\Debug\\cmTC_25ac6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-7t1hy6/Debug/cmTC_25ac6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-7t1hy6/Debug/cmTC_25ac6.lib" /MACHINE:X64  /machine:x64 cmTC_25ac6.dir\\Debug\\src.obj
+          cmTC_25ac6.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7t1hy6\\Debug\\cmTC_25ac6.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_2a8af.dir\\Debug\\cmTC_2a8af.tlog\\unsuccessfulbuild".
-          Touching "cmTC_2a8af.dir\\Debug\\cmTC_2a8af.tlog\\cmTC_2a8af.lastbuildstate".
-        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r3sr7e\\cmTC_2a8af.vcxproj" (default targets).
+          Deleting file "cmTC_25ac6.dir\\Debug\\cmTC_25ac6.tlog\\unsuccessfulbuild".
+          Touching "cmTC_25ac6.dir\\Debug\\cmTC_25ac6.tlog\\cmTC_25ac6.lastbuildstate".
+        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7t1hy6\\cmTC_25ac6.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.38
+        Time Elapsed 00:00:00.39
         
       exitCode: 0
   -
@@ -2452,8 +2452,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE2"
     directories:
-      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-s0s4qj"
-      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-s0s4qj"
+      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-7qtt48"
+      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-7qtt48"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2463,40 +2463,40 @@ events:
       variable: "COMPILER_SUPPORTS_SSE2"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-s0s4qj'
+        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-7qtt48'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_13fe6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_83b19.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-        Build started 10/13/2025 11:22:28 PM.
+        Build started 10/15/2025 12:30:34 AM.
         
-        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s0s4qj\\cmTC_13fe6.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7qtt48\\cmTC_83b19.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_13fe6.dir\\Debug\\".
+          Creating directory "cmTC_83b19.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s0s4qj\\Debug\\".
-          Creating directory "cmTC_13fe6.dir\\Debug\\cmTC_13fe6.tlog\\".
+          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7qtt48\\Debug\\".
+          Creating directory "cmTC_83b19.dir\\Debug\\cmTC_83b19.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_13fe6.dir\\Debug\\cmTC_13fe6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_13fe6.dir\\Debug\\cmTC_13fe6.tlog\\unsuccessfulbuild".
+          Creating "cmTC_83b19.dir\\Debug\\cmTC_83b19.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_83b19.dir\\Debug\\cmTC_83b19.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_13fe6.dir\\Debug\\\\" /Fd"cmTC_13fe6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s0s4qj\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_83b19.dir\\Debug\\\\" /Fd"cmTC_83b19.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7qtt48\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_13fe6.dir\\Debug\\\\" /Fd"cmTC_13fe6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s0s4qj\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_83b19.dir\\Debug\\\\" /Fd"cmTC_83b19.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7qtt48\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s0s4qj\\Debug\\cmTC_13fe6.exe" /INCREMENTAL /ILK:"cmTC_13fe6.dir\\Debug\\cmTC_13fe6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-s0s4qj/Debug/cmTC_13fe6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-s0s4qj/Debug/cmTC_13fe6.lib" /MACHINE:X64  /machine:x64 cmTC_13fe6.dir\\Debug\\src.obj
-          cmTC_13fe6.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s0s4qj\\Debug\\cmTC_13fe6.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7qtt48\\Debug\\cmTC_83b19.exe" /INCREMENTAL /ILK:"cmTC_83b19.dir\\Debug\\cmTC_83b19.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-7qtt48/Debug/cmTC_83b19.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-7qtt48/Debug/cmTC_83b19.lib" /MACHINE:X64  /machine:x64 cmTC_83b19.dir\\Debug\\src.obj
+          cmTC_83b19.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7qtt48\\Debug\\cmTC_83b19.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_13fe6.dir\\Debug\\cmTC_13fe6.tlog\\unsuccessfulbuild".
-          Touching "cmTC_13fe6.dir\\Debug\\cmTC_13fe6.tlog\\cmTC_13fe6.lastbuildstate".
-        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s0s4qj\\cmTC_13fe6.vcxproj" (default targets).
+          Deleting file "cmTC_83b19.dir\\Debug\\cmTC_83b19.tlog\\unsuccessfulbuild".
+          Touching "cmTC_83b19.dir\\Debug\\cmTC_83b19.tlog\\cmTC_83b19.lastbuildstate".
+        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7qtt48\\cmTC_83b19.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.44
+        Time Elapsed 00:00:00.38
         
       exitCode: 0
   -
@@ -2509,8 +2509,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE3"
     directories:
-      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-l5cgfo"
-      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-l5cgfo"
+      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-c61nbr"
+      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-c61nbr"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2520,40 +2520,40 @@ events:
       variable: "COMPILER_SUPPORTS_SSE3"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-l5cgfo'
+        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-c61nbr'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dc96a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_89151.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-        Build started 10/13/2025 11:22:29 PM.
+        Build started 10/15/2025 12:30:35 AM.
         
-        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5cgfo\\cmTC_dc96a.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c61nbr\\cmTC_89151.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_dc96a.dir\\Debug\\".
+          Creating directory "cmTC_89151.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5cgfo\\Debug\\".
-          Creating directory "cmTC_dc96a.dir\\Debug\\cmTC_dc96a.tlog\\".
+          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c61nbr\\Debug\\".
+          Creating directory "cmTC_89151.dir\\Debug\\cmTC_89151.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_dc96a.dir\\Debug\\cmTC_dc96a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_dc96a.dir\\Debug\\cmTC_dc96a.tlog\\unsuccessfulbuild".
+          Creating "cmTC_89151.dir\\Debug\\cmTC_89151.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_89151.dir\\Debug\\cmTC_89151.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_dc96a.dir\\Debug\\\\" /Fd"cmTC_dc96a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5cgfo\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_89151.dir\\Debug\\\\" /Fd"cmTC_89151.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c61nbr\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_dc96a.dir\\Debug\\\\" /Fd"cmTC_dc96a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5cgfo\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_89151.dir\\Debug\\\\" /Fd"cmTC_89151.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c61nbr\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5cgfo\\Debug\\cmTC_dc96a.exe" /INCREMENTAL /ILK:"cmTC_dc96a.dir\\Debug\\cmTC_dc96a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-l5cgfo/Debug/cmTC_dc96a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-l5cgfo/Debug/cmTC_dc96a.lib" /MACHINE:X64  /machine:x64 cmTC_dc96a.dir\\Debug\\src.obj
-          cmTC_dc96a.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5cgfo\\Debug\\cmTC_dc96a.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c61nbr\\Debug\\cmTC_89151.exe" /INCREMENTAL /ILK:"cmTC_89151.dir\\Debug\\cmTC_89151.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-c61nbr/Debug/cmTC_89151.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-c61nbr/Debug/cmTC_89151.lib" /MACHINE:X64  /machine:x64 cmTC_89151.dir\\Debug\\src.obj
+          cmTC_89151.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c61nbr\\Debug\\cmTC_89151.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_dc96a.dir\\Debug\\cmTC_dc96a.tlog\\unsuccessfulbuild".
-          Touching "cmTC_dc96a.dir\\Debug\\cmTC_dc96a.tlog\\cmTC_dc96a.lastbuildstate".
-        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5cgfo\\cmTC_dc96a.vcxproj" (default targets).
+          Deleting file "cmTC_89151.dir\\Debug\\cmTC_89151.tlog\\unsuccessfulbuild".
+          Touching "cmTC_89151.dir\\Debug\\cmTC_89151.tlog\\cmTC_89151.lastbuildstate".
+        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c61nbr\\cmTC_89151.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.38
+        Time Elapsed 00:00:00.39
         
       exitCode: 0
   -
@@ -2566,8 +2566,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE4_1"
     directories:
-      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-n68pc6"
-      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-n68pc6"
+      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-qo3ir0"
+      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-qo3ir0"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2577,40 +2577,40 @@ events:
       variable: "COMPILER_SUPPORTS_SSE4_1"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-n68pc6'
+        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-qo3ir0'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3a719.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b7eff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-        Build started 10/13/2025 11:22:29 PM.
+        Build started 10/15/2025 12:30:35 AM.
         
-        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n68pc6\\cmTC_3a719.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qo3ir0\\cmTC_b7eff.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_3a719.dir\\Debug\\".
+          Creating directory "cmTC_b7eff.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n68pc6\\Debug\\".
-          Creating directory "cmTC_3a719.dir\\Debug\\cmTC_3a719.tlog\\".
+          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qo3ir0\\Debug\\".
+          Creating directory "cmTC_b7eff.dir\\Debug\\cmTC_b7eff.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_3a719.dir\\Debug\\cmTC_3a719.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_3a719.dir\\Debug\\cmTC_3a719.tlog\\unsuccessfulbuild".
+          Creating "cmTC_b7eff.dir\\Debug\\cmTC_b7eff.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b7eff.dir\\Debug\\cmTC_b7eff.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_3a719.dir\\Debug\\\\" /Fd"cmTC_3a719.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n68pc6\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b7eff.dir\\Debug\\\\" /Fd"cmTC_b7eff.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qo3ir0\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_3a719.dir\\Debug\\\\" /Fd"cmTC_3a719.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n68pc6\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b7eff.dir\\Debug\\\\" /Fd"cmTC_b7eff.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qo3ir0\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n68pc6\\Debug\\cmTC_3a719.exe" /INCREMENTAL /ILK:"cmTC_3a719.dir\\Debug\\cmTC_3a719.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-n68pc6/Debug/cmTC_3a719.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-n68pc6/Debug/cmTC_3a719.lib" /MACHINE:X64  /machine:x64 cmTC_3a719.dir\\Debug\\src.obj
-          cmTC_3a719.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n68pc6\\Debug\\cmTC_3a719.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qo3ir0\\Debug\\cmTC_b7eff.exe" /INCREMENTAL /ILK:"cmTC_b7eff.dir\\Debug\\cmTC_b7eff.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-qo3ir0/Debug/cmTC_b7eff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-qo3ir0/Debug/cmTC_b7eff.lib" /MACHINE:X64  /machine:x64 cmTC_b7eff.dir\\Debug\\src.obj
+          cmTC_b7eff.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qo3ir0\\Debug\\cmTC_b7eff.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_3a719.dir\\Debug\\cmTC_3a719.tlog\\unsuccessfulbuild".
-          Touching "cmTC_3a719.dir\\Debug\\cmTC_3a719.tlog\\cmTC_3a719.lastbuildstate".
-        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n68pc6\\cmTC_3a719.vcxproj" (default targets).
+          Deleting file "cmTC_b7eff.dir\\Debug\\cmTC_b7eff.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b7eff.dir\\Debug\\cmTC_b7eff.tlog\\cmTC_b7eff.lastbuildstate".
+        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qo3ir0\\cmTC_b7eff.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.38
+        Time Elapsed 00:00:00.39
         
       exitCode: 0
   -
@@ -2623,8 +2623,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE4_2"
     directories:
-      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-sczjoi"
-      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-sczjoi"
+      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-bnsdhm"
+      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-bnsdhm"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2634,34 +2634,34 @@ events:
       variable: "COMPILER_SUPPORTS_SSE4_2"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-sczjoi'
+        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-bnsdhm'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3c041.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_76644.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-        Build started 10/13/2025 11:22:30 PM.
+        Build started 10/15/2025 12:30:36 AM.
         
-        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sczjoi\\cmTC_3c041.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bnsdhm\\cmTC_76644.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_3c041.dir\\Debug\\".
+          Creating directory "cmTC_76644.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sczjoi\\Debug\\".
-          Creating directory "cmTC_3c041.dir\\Debug\\cmTC_3c041.tlog\\".
+          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bnsdhm\\Debug\\".
+          Creating directory "cmTC_76644.dir\\Debug\\cmTC_76644.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_3c041.dir\\Debug\\cmTC_3c041.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_3c041.dir\\Debug\\cmTC_3c041.tlog\\unsuccessfulbuild".
+          Creating "cmTC_76644.dir\\Debug\\cmTC_76644.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_76644.dir\\Debug\\cmTC_76644.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_3c041.dir\\Debug\\\\" /Fd"cmTC_3c041.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sczjoi\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_76644.dir\\Debug\\\\" /Fd"cmTC_76644.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bnsdhm\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_3c041.dir\\Debug\\\\" /Fd"cmTC_3c041.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sczjoi\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_76644.dir\\Debug\\\\" /Fd"cmTC_76644.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bnsdhm\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sczjoi\\Debug\\cmTC_3c041.exe" /INCREMENTAL /ILK:"cmTC_3c041.dir\\Debug\\cmTC_3c041.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-sczjoi/Debug/cmTC_3c041.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-sczjoi/Debug/cmTC_3c041.lib" /MACHINE:X64  /machine:x64 cmTC_3c041.dir\\Debug\\src.obj
-          cmTC_3c041.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sczjoi\\Debug\\cmTC_3c041.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bnsdhm\\Debug\\cmTC_76644.exe" /INCREMENTAL /ILK:"cmTC_76644.dir\\Debug\\cmTC_76644.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-bnsdhm/Debug/cmTC_76644.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-bnsdhm/Debug/cmTC_76644.lib" /MACHINE:X64  /machine:x64 cmTC_76644.dir\\Debug\\src.obj
+          cmTC_76644.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bnsdhm\\Debug\\cmTC_76644.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_3c041.dir\\Debug\\cmTC_3c041.tlog\\unsuccessfulbuild".
-          Touching "cmTC_3c041.dir\\Debug\\cmTC_3c041.tlog\\cmTC_3c041.lastbuildstate".
-        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sczjoi\\cmTC_3c041.vcxproj" (default targets).
+          Deleting file "cmTC_76644.dir\\Debug\\cmTC_76644.tlog\\unsuccessfulbuild".
+          Touching "cmTC_76644.dir\\Debug\\cmTC_76644.tlog\\cmTC_76644.lastbuildstate".
+        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bnsdhm\\cmTC_76644.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
@@ -2680,8 +2680,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_AVX"
     directories:
-      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-nq3ju5"
-      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-nq3ju5"
+      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-is7afg"
+      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-is7afg"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2691,40 +2691,40 @@ events:
       variable: "COMPILER_SUPPORTS_AVX"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-nq3ju5'
+        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-is7afg'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b7378.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c5149.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-        Build started 10/13/2025 11:22:31 PM.
+        Build started 10/15/2025 12:30:37 AM.
         
-        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nq3ju5\\cmTC_b7378.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-is7afg\\cmTC_c5149.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_b7378.dir\\Debug\\".
+          Creating directory "cmTC_c5149.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nq3ju5\\Debug\\".
-          Creating directory "cmTC_b7378.dir\\Debug\\cmTC_b7378.tlog\\".
+          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-is7afg\\Debug\\".
+          Creating directory "cmTC_c5149.dir\\Debug\\cmTC_c5149.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_b7378.dir\\Debug\\cmTC_b7378.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_b7378.dir\\Debug\\cmTC_b7378.tlog\\unsuccessfulbuild".
+          Creating "cmTC_c5149.dir\\Debug\\cmTC_c5149.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c5149.dir\\Debug\\cmTC_c5149.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b7378.dir\\Debug\\\\" /Fd"cmTC_b7378.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nq3ju5\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c5149.dir\\Debug\\\\" /Fd"cmTC_c5149.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-is7afg\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b7378.dir\\Debug\\\\" /Fd"cmTC_b7378.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nq3ju5\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c5149.dir\\Debug\\\\" /Fd"cmTC_c5149.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-is7afg\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nq3ju5\\Debug\\cmTC_b7378.exe" /INCREMENTAL /ILK:"cmTC_b7378.dir\\Debug\\cmTC_b7378.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-nq3ju5/Debug/cmTC_b7378.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-nq3ju5/Debug/cmTC_b7378.lib" /MACHINE:X64  /machine:x64 cmTC_b7378.dir\\Debug\\src.obj
-          cmTC_b7378.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nq3ju5\\Debug\\cmTC_b7378.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-is7afg\\Debug\\cmTC_c5149.exe" /INCREMENTAL /ILK:"cmTC_c5149.dir\\Debug\\cmTC_c5149.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-is7afg/Debug/cmTC_c5149.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-is7afg/Debug/cmTC_c5149.lib" /MACHINE:X64  /machine:x64 cmTC_c5149.dir\\Debug\\src.obj
+          cmTC_c5149.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-is7afg\\Debug\\cmTC_c5149.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_b7378.dir\\Debug\\cmTC_b7378.tlog\\unsuccessfulbuild".
-          Touching "cmTC_b7378.dir\\Debug\\cmTC_b7378.tlog\\cmTC_b7378.lastbuildstate".
-        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nq3ju5\\cmTC_b7378.vcxproj" (default targets).
+          Deleting file "cmTC_c5149.dir\\Debug\\cmTC_c5149.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c5149.dir\\Debug\\cmTC_c5149.tlog\\cmTC_c5149.lastbuildstate".
+        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-is7afg\\cmTC_c5149.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.40
+        Time Elapsed 00:00:00.42
         
       exitCode: 0
   -
@@ -2737,8 +2737,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_AVX2"
     directories:
-      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-qe98x1"
-      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-qe98x1"
+      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-5r7v95"
+      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-5r7v95"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2748,40 +2748,40 @@ events:
       variable: "COMPILER_SUPPORTS_AVX2"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-qe98x1'
+        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-5r7v95'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8363e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_267b2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-        Build started 10/13/2025 11:22:31 PM.
+        Build started 10/15/2025 12:30:37 AM.
         
-        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qe98x1\\cmTC_8363e.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5r7v95\\cmTC_267b2.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_8363e.dir\\Debug\\".
+          Creating directory "cmTC_267b2.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qe98x1\\Debug\\".
-          Creating directory "cmTC_8363e.dir\\Debug\\cmTC_8363e.tlog\\".
+          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5r7v95\\Debug\\".
+          Creating directory "cmTC_267b2.dir\\Debug\\cmTC_267b2.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_8363e.dir\\Debug\\cmTC_8363e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_8363e.dir\\Debug\\cmTC_8363e.tlog\\unsuccessfulbuild".
+          Creating "cmTC_267b2.dir\\Debug\\cmTC_267b2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_267b2.dir\\Debug\\cmTC_267b2.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8363e.dir\\Debug\\\\" /Fd"cmTC_8363e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qe98x1\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_267b2.dir\\Debug\\\\" /Fd"cmTC_267b2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5r7v95\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8363e.dir\\Debug\\\\" /Fd"cmTC_8363e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qe98x1\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_267b2.dir\\Debug\\\\" /Fd"cmTC_267b2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5r7v95\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qe98x1\\Debug\\cmTC_8363e.exe" /INCREMENTAL /ILK:"cmTC_8363e.dir\\Debug\\cmTC_8363e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-qe98x1/Debug/cmTC_8363e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-qe98x1/Debug/cmTC_8363e.lib" /MACHINE:X64  /machine:x64 cmTC_8363e.dir\\Debug\\src.obj
-          cmTC_8363e.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qe98x1\\Debug\\cmTC_8363e.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5r7v95\\Debug\\cmTC_267b2.exe" /INCREMENTAL /ILK:"cmTC_267b2.dir\\Debug\\cmTC_267b2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-5r7v95/Debug/cmTC_267b2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-5r7v95/Debug/cmTC_267b2.lib" /MACHINE:X64  /machine:x64 cmTC_267b2.dir\\Debug\\src.obj
+          cmTC_267b2.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5r7v95\\Debug\\cmTC_267b2.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_8363e.dir\\Debug\\cmTC_8363e.tlog\\unsuccessfulbuild".
-          Touching "cmTC_8363e.dir\\Debug\\cmTC_8363e.tlog\\cmTC_8363e.lastbuildstate".
-        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qe98x1\\cmTC_8363e.vcxproj" (default targets).
+          Deleting file "cmTC_267b2.dir\\Debug\\cmTC_267b2.tlog\\unsuccessfulbuild".
+          Touching "cmTC_267b2.dir\\Debug\\cmTC_267b2.tlog\\cmTC_267b2.lastbuildstate".
+        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5r7v95\\cmTC_267b2.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.39
+        Time Elapsed 00:00:00.43
         
       exitCode: 0
   -
@@ -2794,8 +2794,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_AVX512F"
     directories:
-      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-oime5p"
-      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-oime5p"
+      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-hohmrz"
+      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-hohmrz"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2805,40 +2805,40 @@ events:
       variable: "COMPILER_SUPPORTS_AVX512F"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-oime5p'
+        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-hohmrz'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9b2ce.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f6b13.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-        Build started 10/13/2025 11:22:32 PM.
+        Build started 10/15/2025 12:30:38 AM.
         
-        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oime5p\\cmTC_9b2ce.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hohmrz\\cmTC_f6b13.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_9b2ce.dir\\Debug\\".
+          Creating directory "cmTC_f6b13.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oime5p\\Debug\\".
-          Creating directory "cmTC_9b2ce.dir\\Debug\\cmTC_9b2ce.tlog\\".
+          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hohmrz\\Debug\\".
+          Creating directory "cmTC_f6b13.dir\\Debug\\cmTC_f6b13.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_9b2ce.dir\\Debug\\cmTC_9b2ce.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_9b2ce.dir\\Debug\\cmTC_9b2ce.tlog\\unsuccessfulbuild".
+          Creating "cmTC_f6b13.dir\\Debug\\cmTC_f6b13.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f6b13.dir\\Debug\\cmTC_f6b13.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_9b2ce.dir\\Debug\\\\" /Fd"cmTC_9b2ce.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oime5p\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_f6b13.dir\\Debug\\\\" /Fd"cmTC_f6b13.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hohmrz\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_9b2ce.dir\\Debug\\\\" /Fd"cmTC_9b2ce.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oime5p\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_f6b13.dir\\Debug\\\\" /Fd"cmTC_f6b13.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hohmrz\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oime5p\\Debug\\cmTC_9b2ce.exe" /INCREMENTAL /ILK:"cmTC_9b2ce.dir\\Debug\\cmTC_9b2ce.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-oime5p/Debug/cmTC_9b2ce.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-oime5p/Debug/cmTC_9b2ce.lib" /MACHINE:X64  /machine:x64 cmTC_9b2ce.dir\\Debug\\src.obj
-          cmTC_9b2ce.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oime5p\\Debug\\cmTC_9b2ce.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hohmrz\\Debug\\cmTC_f6b13.exe" /INCREMENTAL /ILK:"cmTC_f6b13.dir\\Debug\\cmTC_f6b13.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-hohmrz/Debug/cmTC_f6b13.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-hohmrz/Debug/cmTC_f6b13.lib" /MACHINE:X64  /machine:x64 cmTC_f6b13.dir\\Debug\\src.obj
+          cmTC_f6b13.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hohmrz\\Debug\\cmTC_f6b13.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_9b2ce.dir\\Debug\\cmTC_9b2ce.tlog\\unsuccessfulbuild".
-          Touching "cmTC_9b2ce.dir\\Debug\\cmTC_9b2ce.tlog\\cmTC_9b2ce.lastbuildstate".
-        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oime5p\\cmTC_9b2ce.vcxproj" (default targets).
+          Deleting file "cmTC_f6b13.dir\\Debug\\cmTC_f6b13.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f6b13.dir\\Debug\\cmTC_f6b13.tlog\\cmTC_f6b13.lastbuildstate".
+        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hohmrz\\cmTC_f6b13.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.50
+        Time Elapsed 00:00:00.43
         
       exitCode: 0
   -
@@ -2850,8 +2850,8 @@ events:
     checks:
       - "Looking for _copysign"
     directories:
-      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-xdexah"
-      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-xdexah"
+      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-dr7fdo"
+      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-dr7fdo"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2861,40 +2861,40 @@ events:
       variable: "LIBC_HAS__COPYSIGN"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-xdexah'
+        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-dr7fdo'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_81f54.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ef294.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-        Build started 10/13/2025 11:22:32 PM.
+        Build started 10/15/2025 12:30:38 AM.
         
-        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xdexah\\cmTC_81f54.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dr7fdo\\cmTC_ef294.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_81f54.dir\\Debug\\".
+          Creating directory "cmTC_ef294.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xdexah\\Debug\\".
-          Creating directory "cmTC_81f54.dir\\Debug\\cmTC_81f54.tlog\\".
+          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dr7fdo\\Debug\\".
+          Creating directory "cmTC_ef294.dir\\Debug\\cmTC_ef294.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_81f54.dir\\Debug\\cmTC_81f54.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_81f54.dir\\Debug\\cmTC_81f54.tlog\\unsuccessfulbuild".
+          Creating "cmTC_ef294.dir\\Debug\\cmTC_ef294.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ef294.dir\\Debug\\cmTC_ef294.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_81f54.dir\\Debug\\\\" /Fd"cmTC_81f54.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xdexah\\CheckSymbolExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_ef294.dir\\Debug\\\\" /Fd"cmTC_ef294.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dr7fdo\\CheckSymbolExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_81f54.dir\\Debug\\\\" /Fd"cmTC_81f54.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xdexah\\CheckSymbolExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_ef294.dir\\Debug\\\\" /Fd"cmTC_ef294.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dr7fdo\\CheckSymbolExists.c"
           CheckSymbolExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xdexah\\Debug\\cmTC_81f54.exe" /INCREMENTAL /ILK:"cmTC_81f54.dir\\Debug\\cmTC_81f54.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-xdexah/Debug/cmTC_81f54.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-xdexah/Debug/cmTC_81f54.lib" /MACHINE:X64  /machine:x64 cmTC_81f54.dir\\Debug\\CheckSymbolExists.obj
-          cmTC_81f54.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xdexah\\Debug\\cmTC_81f54.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dr7fdo\\Debug\\cmTC_ef294.exe" /INCREMENTAL /ILK:"cmTC_ef294.dir\\Debug\\cmTC_ef294.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-dr7fdo/Debug/cmTC_ef294.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-dr7fdo/Debug/cmTC_ef294.lib" /MACHINE:X64  /machine:x64 cmTC_ef294.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_ef294.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dr7fdo\\Debug\\cmTC_ef294.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_81f54.dir\\Debug\\cmTC_81f54.tlog\\unsuccessfulbuild".
-          Touching "cmTC_81f54.dir\\Debug\\cmTC_81f54.tlog\\cmTC_81f54.lastbuildstate".
-        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xdexah\\cmTC_81f54.vcxproj" (default targets).
+          Deleting file "cmTC_ef294.dir\\Debug\\cmTC_ef294.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ef294.dir\\Debug\\cmTC_ef294.tlog\\cmTC_ef294.lastbuildstate".
+        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dr7fdo\\cmTC_ef294.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.45
+        Time Elapsed 00:00:00.42
         
       exitCode: 0
   -
@@ -2906,8 +2906,8 @@ events:
     checks:
       - "Looking for _fseeki64"
     directories:
-      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-omn8jc"
-      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-omn8jc"
+      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-rv8iri"
+      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-rv8iri"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2917,40 +2917,40 @@ events:
       variable: "LIBC_HAS__FSEEKI64"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-omn8jc'
+        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-rv8iri'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d1bf9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8d797.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-        Build started 10/13/2025 11:22:33 PM.
+        Build started 10/15/2025 12:30:39 AM.
         
-        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-omn8jc\\cmTC_d1bf9.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rv8iri\\cmTC_8d797.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_d1bf9.dir\\Debug\\".
+          Creating directory "cmTC_8d797.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-omn8jc\\Debug\\".
-          Creating directory "cmTC_d1bf9.dir\\Debug\\cmTC_d1bf9.tlog\\".
+          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rv8iri\\Debug\\".
+          Creating directory "cmTC_8d797.dir\\Debug\\cmTC_8d797.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_d1bf9.dir\\Debug\\cmTC_d1bf9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_d1bf9.dir\\Debug\\cmTC_d1bf9.tlog\\unsuccessfulbuild".
+          Creating "cmTC_8d797.dir\\Debug\\cmTC_8d797.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8d797.dir\\Debug\\cmTC_8d797.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_d1bf9.dir\\Debug\\\\" /Fd"cmTC_d1bf9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-omn8jc\\CheckSymbolExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8d797.dir\\Debug\\\\" /Fd"cmTC_8d797.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rv8iri\\CheckSymbolExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_d1bf9.dir\\Debug\\\\" /Fd"cmTC_d1bf9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-omn8jc\\CheckSymbolExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8d797.dir\\Debug\\\\" /Fd"cmTC_8d797.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rv8iri\\CheckSymbolExists.c"
           CheckSymbolExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-omn8jc\\Debug\\cmTC_d1bf9.exe" /INCREMENTAL /ILK:"cmTC_d1bf9.dir\\Debug\\cmTC_d1bf9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-omn8jc/Debug/cmTC_d1bf9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-omn8jc/Debug/cmTC_d1bf9.lib" /MACHINE:X64  /machine:x64 cmTC_d1bf9.dir\\Debug\\CheckSymbolExists.obj
-          cmTC_d1bf9.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-omn8jc\\Debug\\cmTC_d1bf9.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rv8iri\\Debug\\cmTC_8d797.exe" /INCREMENTAL /ILK:"cmTC_8d797.dir\\Debug\\cmTC_8d797.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-rv8iri/Debug/cmTC_8d797.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-rv8iri/Debug/cmTC_8d797.lib" /MACHINE:X64  /machine:x64 cmTC_8d797.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_8d797.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rv8iri\\Debug\\cmTC_8d797.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_d1bf9.dir\\Debug\\cmTC_d1bf9.tlog\\unsuccessfulbuild".
-          Touching "cmTC_d1bf9.dir\\Debug\\cmTC_d1bf9.tlog\\cmTC_d1bf9.lastbuildstate".
-        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-omn8jc\\cmTC_d1bf9.vcxproj" (default targets).
+          Deleting file "cmTC_8d797.dir\\Debug\\cmTC_8d797.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8d797.dir\\Debug\\cmTC_8d797.tlog\\cmTC_8d797.lastbuildstate".
+        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rv8iri\\cmTC_8d797.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.40
+        Time Elapsed 00:00:00.43
         
       exitCode: 0
   -
@@ -2962,8 +2962,8 @@ events:
     checks:
       - "Performing Test HAVE_GAMEINPUT_H"
     directories:
-      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-p8yylr"
-      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-p8yylr"
+      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-3vrtgw"
+      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-3vrtgw"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2973,40 +2973,40 @@ events:
       variable: "HAVE_GAMEINPUT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-p8yylr'
+        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-3vrtgw'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3bc4a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_274d1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-        Build started 10/13/2025 11:22:34 PM.
+        Build started 10/15/2025 12:30:40 AM.
         
-        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p8yylr\\cmTC_3bc4a.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3vrtgw\\cmTC_274d1.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_3bc4a.dir\\Debug\\".
+          Creating directory "cmTC_274d1.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p8yylr\\Debug\\".
-          Creating directory "cmTC_3bc4a.dir\\Debug\\cmTC_3bc4a.tlog\\".
+          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3vrtgw\\Debug\\".
+          Creating directory "cmTC_274d1.dir\\Debug\\cmTC_274d1.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_3bc4a.dir\\Debug\\cmTC_3bc4a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_3bc4a.dir\\Debug\\cmTC_3bc4a.tlog\\unsuccessfulbuild".
+          Creating "cmTC_274d1.dir\\Debug\\cmTC_274d1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_274d1.dir\\Debug\\cmTC_274d1.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_3bc4a.dir\\Debug\\\\" /Fd"cmTC_3bc4a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p8yylr\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_274d1.dir\\Debug\\\\" /Fd"cmTC_274d1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3vrtgw\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_3bc4a.dir\\Debug\\\\" /Fd"cmTC_3bc4a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p8yylr\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_274d1.dir\\Debug\\\\" /Fd"cmTC_274d1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3vrtgw\\src.c"
           src.c
-        C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p8yylr\\src.c(4,14): error C1083: Cannot open include file: 'gameinput.h': No such file or directory [C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p8yylr\\cmTC_3bc4a.vcxproj]
-        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p8yylr\\cmTC_3bc4a.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3vrtgw\\src.c(4,14): error C1083: Cannot open include file: 'gameinput.h': No such file or directory [C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3vrtgw\\cmTC_274d1.vcxproj]
+        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3vrtgw\\cmTC_274d1.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p8yylr\\cmTC_3bc4a.vcxproj" (default target) (1) ->
+        "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3vrtgw\\cmTC_274d1.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p8yylr\\src.c(4,14): error C1083: Cannot open include file: 'gameinput.h': No such file or directory [C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p8yylr\\cmTC_3bc4a.vcxproj]
+          C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3vrtgw\\src.c(4,14): error C1083: Cannot open include file: 'gameinput.h': No such file or directory [C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3vrtgw\\cmTC_274d1.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.24
+        Time Elapsed 00:00:00.31
         
       exitCode: 1
   -
@@ -3017,8 +3017,8 @@ events:
     checks:
       - "Looking for dxgi1_5.h"
     directories:
-      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-sshpua"
-      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-sshpua"
+      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-q3ey6i"
+      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-q3ey6i"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -3028,40 +3028,40 @@ events:
       variable: "HAVE_DXGI1_5_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-sshpua'
+        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-q3ey6i'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e1f9c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_95f2e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-        Build started 10/13/2025 11:22:34 PM.
+        Build started 10/15/2025 12:30:40 AM.
         
-        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sshpua\\cmTC_e1f9c.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q3ey6i\\cmTC_95f2e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_e1f9c.dir\\Debug\\".
+          Creating directory "cmTC_95f2e.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sshpua\\Debug\\".
-          Creating directory "cmTC_e1f9c.dir\\Debug\\cmTC_e1f9c.tlog\\".
+          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q3ey6i\\Debug\\".
+          Creating directory "cmTC_95f2e.dir\\Debug\\cmTC_95f2e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_e1f9c.dir\\Debug\\cmTC_e1f9c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_e1f9c.dir\\Debug\\cmTC_e1f9c.tlog\\unsuccessfulbuild".
+          Creating "cmTC_95f2e.dir\\Debug\\cmTC_95f2e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_95f2e.dir\\Debug\\cmTC_95f2e.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_e1f9c.dir\\Debug\\\\" /Fd"cmTC_e1f9c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sshpua\\CheckIncludeFile.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_95f2e.dir\\Debug\\\\" /Fd"cmTC_95f2e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q3ey6i\\CheckIncludeFile.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_e1f9c.dir\\Debug\\\\" /Fd"cmTC_e1f9c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sshpua\\CheckIncludeFile.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_95f2e.dir\\Debug\\\\" /Fd"cmTC_95f2e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q3ey6i\\CheckIncludeFile.c"
           CheckIncludeFile.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sshpua\\Debug\\cmTC_e1f9c.exe" /INCREMENTAL /ILK:"cmTC_e1f9c.dir\\Debug\\cmTC_e1f9c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-sshpua/Debug/cmTC_e1f9c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-sshpua/Debug/cmTC_e1f9c.lib" /MACHINE:X64  /machine:x64 cmTC_e1f9c.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_e1f9c.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sshpua\\Debug\\cmTC_e1f9c.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q3ey6i\\Debug\\cmTC_95f2e.exe" /INCREMENTAL /ILK:"cmTC_95f2e.dir\\Debug\\cmTC_95f2e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-q3ey6i/Debug/cmTC_95f2e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-q3ey6i/Debug/cmTC_95f2e.lib" /MACHINE:X64  /machine:x64 cmTC_95f2e.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_95f2e.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q3ey6i\\Debug\\cmTC_95f2e.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_e1f9c.dir\\Debug\\cmTC_e1f9c.tlog\\unsuccessfulbuild".
-          Touching "cmTC_e1f9c.dir\\Debug\\cmTC_e1f9c.tlog\\cmTC_e1f9c.lastbuildstate".
-        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sshpua\\cmTC_e1f9c.vcxproj" (default targets).
+          Deleting file "cmTC_95f2e.dir\\Debug\\cmTC_95f2e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_95f2e.dir\\Debug\\cmTC_95f2e.tlog\\cmTC_95f2e.lastbuildstate".
+        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q3ey6i\\cmTC_95f2e.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.53
+        Time Elapsed 00:00:00.56
         
       exitCode: 0
   -
@@ -3072,8 +3072,8 @@ events:
     checks:
       - "Looking for dxgi1_6.h"
     directories:
-      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-5rwzyc"
-      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-5rwzyc"
+      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-0c5djq"
+      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-0c5djq"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -3083,40 +3083,40 @@ events:
       variable: "HAVE_DXGI1_6_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-5rwzyc'
+        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-0c5djq'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0c644.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5a00f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-        Build started 10/13/2025 11:22:35 PM.
+        Build started 10/15/2025 12:30:41 AM.
         
-        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5rwzyc\\cmTC_0c644.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0c5djq\\cmTC_5a00f.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_0c644.dir\\Debug\\".
+          Creating directory "cmTC_5a00f.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5rwzyc\\Debug\\".
-          Creating directory "cmTC_0c644.dir\\Debug\\cmTC_0c644.tlog\\".
+          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0c5djq\\Debug\\".
+          Creating directory "cmTC_5a00f.dir\\Debug\\cmTC_5a00f.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_0c644.dir\\Debug\\cmTC_0c644.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_0c644.dir\\Debug\\cmTC_0c644.tlog\\unsuccessfulbuild".
+          Creating "cmTC_5a00f.dir\\Debug\\cmTC_5a00f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_5a00f.dir\\Debug\\cmTC_5a00f.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_0c644.dir\\Debug\\\\" /Fd"cmTC_0c644.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5rwzyc\\CheckIncludeFile.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_5a00f.dir\\Debug\\\\" /Fd"cmTC_5a00f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0c5djq\\CheckIncludeFile.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_0c644.dir\\Debug\\\\" /Fd"cmTC_0c644.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5rwzyc\\CheckIncludeFile.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_5a00f.dir\\Debug\\\\" /Fd"cmTC_5a00f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0c5djq\\CheckIncludeFile.c"
           CheckIncludeFile.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5rwzyc\\Debug\\cmTC_0c644.exe" /INCREMENTAL /ILK:"cmTC_0c644.dir\\Debug\\cmTC_0c644.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-5rwzyc/Debug/cmTC_0c644.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-5rwzyc/Debug/cmTC_0c644.lib" /MACHINE:X64  /machine:x64 cmTC_0c644.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_0c644.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5rwzyc\\Debug\\cmTC_0c644.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0c5djq\\Debug\\cmTC_5a00f.exe" /INCREMENTAL /ILK:"cmTC_5a00f.dir\\Debug\\cmTC_5a00f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-0c5djq/Debug/cmTC_5a00f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-0c5djq/Debug/cmTC_5a00f.lib" /MACHINE:X64  /machine:x64 cmTC_5a00f.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_5a00f.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0c5djq\\Debug\\cmTC_5a00f.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_0c644.dir\\Debug\\cmTC_0c644.tlog\\unsuccessfulbuild".
-          Touching "cmTC_0c644.dir\\Debug\\cmTC_0c644.tlog\\cmTC_0c644.lastbuildstate".
-        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5rwzyc\\cmTC_0c644.vcxproj" (default targets).
+          Deleting file "cmTC_5a00f.dir\\Debug\\cmTC_5a00f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_5a00f.dir\\Debug\\cmTC_5a00f.tlog\\cmTC_5a00f.lastbuildstate".
+        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0c5djq\\cmTC_5a00f.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.54
+        Time Elapsed 00:00:00.55
         
       exitCode: 0
   -
@@ -3128,8 +3128,8 @@ events:
     checks:
       - "Performing Test HAVE_MFAPI_H"
     directories:
-      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-a3mw1z"
-      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-a3mw1z"
+      source: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-n6p4av"
+      binary: "C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-n6p4av"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -3139,34 +3139,34 @@ events:
       variable: "HAVE_MFAPI_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-a3mw1z'
+        Change Dir: 'C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-n6p4av'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9ea07.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a016e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-        Build started 10/13/2025 11:22:35 PM.
+        Build started 10/15/2025 12:30:42 AM.
         
-        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3mw1z\\cmTC_9ea07.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n6p4av\\cmTC_a016e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_9ea07.dir\\Debug\\".
+          Creating directory "cmTC_a016e.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3mw1z\\Debug\\".
-          Creating directory "cmTC_9ea07.dir\\Debug\\cmTC_9ea07.tlog\\".
+          Creating directory "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n6p4av\\Debug\\".
+          Creating directory "cmTC_a016e.dir\\Debug\\cmTC_a016e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_9ea07.dir\\Debug\\cmTC_9ea07.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_9ea07.dir\\Debug\\cmTC_9ea07.tlog\\unsuccessfulbuild".
+          Creating "cmTC_a016e.dir\\Debug\\cmTC_a016e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a016e.dir\\Debug\\cmTC_a016e.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_9ea07.dir\\Debug\\\\" /Fd"cmTC_9ea07.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3mw1z\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_a016e.dir\\Debug\\\\" /Fd"cmTC_a016e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n6p4av\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_9ea07.dir\\Debug\\\\" /Fd"cmTC_9ea07.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3mw1z\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_a016e.dir\\Debug\\\\" /Fd"cmTC_a016e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n6p4av\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3mw1z\\Debug\\cmTC_9ea07.exe" /INCREMENTAL /ILK:"cmTC_9ea07.dir\\Debug\\cmTC_9ea07.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-a3mw1z/Debug/cmTC_9ea07.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-a3mw1z/Debug/cmTC_9ea07.lib" /MACHINE:X64  /machine:x64 cmTC_9ea07.dir\\Debug\\src.obj
-          cmTC_9ea07.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3mw1z\\Debug\\cmTC_9ea07.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n6p4av\\Debug\\cmTC_a016e.exe" /INCREMENTAL /ILK:"cmTC_a016e.dir\\Debug\\cmTC_a016e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-n6p4av/Debug/cmTC_a016e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/new user/OneDrive/Documents/QuarkEngine/build/CMakeFiles/CMakeScratch/TryCompile-n6p4av/Debug/cmTC_a016e.lib" /MACHINE:X64  /machine:x64 cmTC_a016e.dir\\Debug\\src.obj
+          cmTC_a016e.vcxproj -> C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n6p4av\\Debug\\cmTC_a016e.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_9ea07.dir\\Debug\\cmTC_9ea07.tlog\\unsuccessfulbuild".
-          Touching "cmTC_9ea07.dir\\Debug\\cmTC_9ea07.tlog\\cmTC_9ea07.lastbuildstate".
-        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3mw1z\\cmTC_9ea07.vcxproj" (default targets).
+          Deleting file "cmTC_a016e.dir\\Debug\\cmTC_a016e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a016e.dir\\Debug\\cmTC_a016e.tlog\\cmTC_a016e.lastbuildstate".
+        Done Building Project "C:\\Users\\new user\\OneDrive\\Documents\\QuarkEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n6p4av\\cmTC_a016e.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)

@@ -70,12 +70,12 @@ C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/bgfx-build/cmake/bg
 C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/bgfx-build/cmake/bgfx/CMakeFiles/example-46-fsr.dir
 C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/bgfx-build/cmake/bgfx/CMakeFiles/example-47-pixelformats.dir
 C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/bgfx-build/cmake/bgfx/CMakeFiles/INSTALL.dir
-C:/Users/new user/OneDrive/Documents/QuarkEngine/build/QuarkEngine/CMakeFiles/QuarkEngine.dir
-C:/Users/new user/OneDrive/Documents/QuarkEngine/build/QuarkEngine/CMakeFiles/INSTALL.dir
 C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir
 C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/sdl3-build/CMakeFiles/SDL3_test.dir
 C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir
 C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/sdl3-build/CMakeFiles/INSTALL.dir
 C:/Users/new user/OneDrive/Documents/QuarkEngine/build/_deps/sdl3-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/new user/OneDrive/Documents/QuarkEngine/build/QuarkEngine/CMakeFiles/QuarkEngine.dir
+C:/Users/new user/OneDrive/Documents/QuarkEngine/build/QuarkEngine/CMakeFiles/INSTALL.dir
 C:/Users/new user/OneDrive/Documents/QuarkEngine/build/QuarkGame/CMakeFiles/QuarkGame.dir
 C:/Users/new user/OneDrive/Documents/QuarkEngine/build/QuarkGame/CMakeFiles/INSTALL.dir
