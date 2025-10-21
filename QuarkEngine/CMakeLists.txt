@@ -5,9 +5,27 @@ include(FetchContent)
 # set(SDL_STATIC OFF CACHE BOOL "Disable static SDL library" FORCE)
 
 # Create your engine library
+
+include(FetchContent)
+set (CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/QuarkGame")
+FetchContent_Declare(
+  bgfx
+  GIT_REPOSITORY https://github.com/bkaradzic/bgfx.cmake
+  GIT_TAG master
+)
+FetchContent_MakeAvailable(bgfx)
+
+FetchContent_Declare(
+    SDL3
+    GIT_REPOSITORY https://github.com/libsdl-org/SDL.git
+    GIT_TAG main
+)
+FetchContent_MakeAvailable(SDL3)
+
+
 add_library(QuarkEngine STATIC
     EngineCore.cpp
-    EngineCore.h  # Optional: for IDE visibility
+    EngineCore.h  
 )
 
 
