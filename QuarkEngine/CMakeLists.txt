@@ -24,9 +24,12 @@ FetchContent_MakeAvailable(SDL3)
 
 
 add_library(QuarkEngine STATIC
+    
     EngineCore.cpp
-    EngineCore.h  
-)
+    EngineApp.cpp
+    Renderer.cpp
+    TimeManager.cpp
+ "Header/InterfaceRenderer.h")
 
 
 # Link SDL3 shared library to your engine

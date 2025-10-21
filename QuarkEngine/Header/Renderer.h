@@ -10,9 +10,5 @@ class Renderer : public InterfaceRenderer
 	void BeginFrame() override;
 	void EndFrame() override;
 
-
-
-
-
 };
 
