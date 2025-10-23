@@ -7,10 +7,27 @@ include(FetchContent)
 # Create your engine library
 
 include(FetchContent)
-set (CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/QuarkGame")
+
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/QuarkGame")
+
+FetchContent_Declare(
+  bx
+  GIT_REPOSITORY https://github.com/bkaradzic/bx.git
+  GIT_TAG        master
+)
+FetchContent_MakeAvailable(bx)
+
+FetchContent_Declare(
+  bimg
+  GIT_REPOSITORY https://github.com/bkaradzic/bimg.git
+  GIT_TAG        master
+)
+FetchContent_MakeAvailable(bimg)
+
 FetchContent_Declare(
   bgfx
-  GIT_REPOSITORY https://github.com/bkaradzic/bgfx.cmake
+  GIT_REPOSITORY https://github.com/bkaradzic/bgfx.cmake.git
   GIT_TAG master
 )
 FetchContent_MakeAvailable(bgfx)
@@ -29,8 +46,17 @@ add_library(QuarkEngine STATIC
     EngineApp.cpp
     Renderer.cpp
     TimeManager.cpp
- "Header/InterfaceRenderer.h")
+    Header/InterfaceRenderer.h
+    Header/EngineApp.h
+    Header/Renderer.h
+    Header/TimeManager.h
+    Header/EngineCore.h
+)
 
+target_include_directories(QuarkEngine
+    PUBLIC
+        ${CMAKE_CURRENT_SOURCE_DIR}/Header
+)
 
 # Link SDL3 shared library to your engine
 target_link_libraries(QuarkEngine 
@@ -51,18 +77,3 @@ target_link_libraries(QuarkEngine
 if(WIN32)
     target_compile_definitions(QuarkEngine PUBLIC SDL_MAIN_HANDLED)
 endif()
-
-# --- In your GAME CMakeLists.txt, after add_executable(QuarkGame ...) and target_link_libraries(...), add this to copy SDL3.dll automatically ---
-# add_custom_command(TARGET QuarkGame POST_BUILD
-#     COMMAND ${CMAKE_COMMAND} -E copy_if_different
-#         "$<TARGET_FILE_DIR:SDL3>/SDL3.dll"
-#         $<TARGET_FILE_DIR:QuarkGame>)
-
-
-# Optional: Copy SDL3.dll automatically to your executable output dir (adjust target name as needed)
-# Assuming your game executable target is QuarkGame, add this in the game's CMakeLists.txt:
-
-# add_custom_command(TARGET QuarkGame POST_BUILD
-#     COMMAND ${CMAKE_COMMAND} -E copy_if_different
-#         "$<TARGET_FILE_DIR:SDL3>/SDL3.dll"
-#         $<TARGET_FILE_DIR:QuarkGame>)

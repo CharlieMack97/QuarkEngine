@@ -9,7 +9,15 @@ bool Renderer::Init(void* nativeWindowHandle, uint32_t width, uint32_t height)
 	init.resolution.height = height;
 	init.resolution.reset;
 
-	bgfx::init(init);
+
+	if (bgfx::init(init))
+	{
+		return true;
+	}
+	else {
+		return false;
+	}
+
 }
 
 void Renderer::Shutdown()
