@@ -44,14 +44,13 @@ add_library(QuarkEngine STATIC
     
     EngineCore.cpp
     EngineApp.cpp
-    Renderer.cpp
     TimeManager.cpp
     Header/InterfaceRenderer.h
     Header/EngineApp.h
     Header/Renderer.h
     Header/TimeManager.h
     Header/EngineCore.h
-)
+ "Header/GameObject.h" "Header/Component.h" "Compenents/TransformComp.h" "Compenents/RendererComp.h" "Compenents/RendererComp.cpp" "TextureManager.cpp")
 
 target_include_directories(QuarkEngine
     PUBLIC

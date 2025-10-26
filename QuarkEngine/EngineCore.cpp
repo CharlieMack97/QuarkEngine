@@ -1,36 +1,23 @@
 #include "EngineCore.h"
+#include "Renderer.h"
+#include "TimeManager.h"
+#include "EngineApp.h"
+#include <SDL3/SDL.h>
 
-//void RunEngine() {
-//	SDL_Window* window = SDL_CreateWindow("Hello QuarkEngine!", 800, 600, SDL_WINDOW_RESIZABLE);
-//	if (!window) {
-//		std::cerr << "Window creation failed: " << SDL_GetError() << '\n';
-//		return;
-//	}
-//
-//	bool running = true;
-//	SDL_Event event;
-//	while (running) {
-//		while (SDL_PollEvent(&event)) {
-//			if (event.type == SDL_EVENT_QUIT)
-//				running = false;
-//		}
-//		SDL_Delay(16);
-//	}
-//
-//	SDL_DestroyWindow(window);
-//}
 EngineCore::EngineCore() {
-	// Constructor code here
+	
 }
 
 EngineCore::~EngineCore() {
-	// Destructor code here
+	
 }
 
 bool EngineCore::Initialize() 
 {
 
-	bgfx::Init init;
+	//initilising systems
+	timeManager->init();
+
 
 	SDL_SetError("SDL Init failed logging test");
 	if (!SDL_Init(SDL_INIT_VIDEO)) {
@@ -44,9 +31,29 @@ bool EngineCore::Initialize()
 		SDL_Quit();
 		return false;
 	}
-
+	SDL_PropertiesID props = SDL_GetWindowProperties(window);
+	void* nativeWindowHandle = SDL_GetPointerProperty(props, SDL_PROP_WINDOW_WIN32_HWND_POINTER, &nativeWindowHandle);
+	rendererI= std::make_unique<Renderer>();
+	txtManager = std::make_unique<TextureManager>();
+	if (!rendererI->Init(nativeWindowHandle, 800, 600))
+	{
+		return false;
+	}
 	running = true;
 	return true;
+}
+
+void EngineCore::RendererFrame()
+{
+	if (!rendererI)
+	{
+		// Log error or break here
+		std::cerr << "Renderer not initialized!" << std::endl;
+		return;
+	}
+	rendererI->BeginFrame();
+	rendererI->DrawTestQuad();
+	rendererI->EndFrame();
 }
 
 void EngineCore::RunMainLoop() {
@@ -58,13 +65,25 @@ void EngineCore::RunMainLoop() {
 			}
 		}
 		SDL_Delay(16);  // ~60fps delay
+		timeManager->update();
+		RendererFrame();
 	}
 }
 
 void EngineCore::Shutdown() {
+	rendererI->Shutdown();
+	if (txtManager)
+	{
+		txtManager->shutdown();
+	}
 	if (window) {
 		SDL_DestroyWindow(window);
 		window = nullptr;
 	}
 	SDL_Quit();
+}
+
+TextureManager* EngineCore::getTextureManager()
+{
+	return txtManager.get();
 }
