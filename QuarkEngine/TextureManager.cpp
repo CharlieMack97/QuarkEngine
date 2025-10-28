@@ -1,6 +1,7 @@
 #include "TextureManager.h"
 #define STB_IMAGE_IMPLEMENTATION
 #include "include/stb_image.h"
+std::unordered_map<std::string, bgfx::TextureHandle> TextureManager::textures;
 bgfx::TextureHandle TextureManager::loadTexture(std::string& path)
 {
 	auto it = textures.find(path);

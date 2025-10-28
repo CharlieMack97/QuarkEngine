@@ -16,6 +16,7 @@ bool EngineCore::Initialize()
 {
 
 	//initilising systems
+	timeManager = std::make_unique<TimeManager>();
 	timeManager->init();
 
 
