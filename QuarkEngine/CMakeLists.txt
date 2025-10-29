@@ -100,6 +100,7 @@ bgfx_compile_shaders(
     AS_HEADERS
     DEPENDS build_shaderc
     FORCE_REBUILD OFF
+    PROFILES glsl spirv
 )
 
 # Fragment shader compilation
@@ -111,6 +112,7 @@ bgfx_compile_shaders(
     AS_HEADERS
     DEPENDS build_shaderc
     FORCE_REBUILD OFF
+    PROFILES glsl spirv
 )
 
 # Include generated shader headers
