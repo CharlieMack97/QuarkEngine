@@ -94,9 +94,9 @@ message(STATUS "bgfx_BINARY_DIR = ${bgfx_BINARY_DIR}")
 # Vertex shader compilation
 bgfx_compile_shaders(
     TYPE VERTEX
-    SHADERS ${SHADER_DIR}/vs_shader.sc
-    VARYING_DEF ${SHADER_DIR}/varying.def.sc
-    OUTPUT_DIR ${SHADER_OUTPUT_DIR}
+    SHADERS ${CMAKE_SOURCE_DIR}/QuarkEngine/shader/vs_shader.sc
+    VARYING_DEF ${CMAKE_SOURCE_DIR}/QuarkEngine/shader/varying.def.sc
+    OUTPUT_DIR ${CMAKE_BINARY_DIR}/include/generated/shaders
     AS_HEADERS
     DEPENDS build_shaderc
     FORCE_REBUILD OFF
@@ -106,9 +106,9 @@ bgfx_compile_shaders(
 # Fragment shader compilation
 bgfx_compile_shaders(
     TYPE FRAGMENT
-    SHADERS ${SHADER_DIR}/fs_shader.sc
-    VARYING_DEF ${SHADER_DIR}/varying.def.sc
-    OUTPUT_DIR ${SHADER_OUTPUT_DIR}
+    SHADERS ${CMAKE_SOURCE_DIR}/QuarkEngine/shader/fs_shader.sc
+    VARYING_DEF ${CMAKE_SOURCE_DIR}/QuarkEngine/shader/varying.def.sc
+    OUTPUT_DIR ${CMAKE_BINARY_DIR}/include/generated/shaders
     AS_HEADERS
     DEPENDS build_shaderc
     FORCE_REBUILD OFF
