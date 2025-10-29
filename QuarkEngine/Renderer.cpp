@@ -2,6 +2,7 @@
 #include <bgfx/bgfx.h>
 #include <bgfx/platform.h>
 #include <SDL3/SDL.h>
+
 bool Renderer::Init(void* nativeWindowHandle, uint32_t width, uint32_t height)
 {
 	m_hieght = height;

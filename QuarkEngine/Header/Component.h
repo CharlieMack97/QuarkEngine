@@ -1,13 +1,12 @@
 #pragma once
 
-#include "GameObject.h"
-
+class GameObject;
 class Component
 {
 public:
-	Component() = default;
+	
 	Component() : m_GameObj(nullptr) {}
-	Component(GameObj* gameObj) : m_GameObj{ gameObj } {}
+	Component(GameObject* gameObj) : m_GameObj{ gameObj } {}
 	virtual ~Component() {}
 	virtual void Start() = 0;
 	virtual void Update(float dt) = 0;
@@ -15,5 +14,5 @@ public:
 
 private:
 protected:
-	GameObj* m_GameObj;
+	GameObject* m_GameObj;
 };

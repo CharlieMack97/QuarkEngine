@@ -2,10 +2,11 @@
 #include <vector>
 #include <memory>
 #include <iostream>
-
-class GameObj
+#include "Component.h"
+class GameObject
 {
 public:
+	
 	void Start();
 	void Update(float dt);
 	void Render();
