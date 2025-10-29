@@ -1,1 +1,1 @@
-v_color0 vec4
+vec4 v_color0 : COLOR0;

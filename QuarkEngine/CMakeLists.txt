@@ -4,7 +4,7 @@ include(FetchContent)
 # Output directory for your runtime binaries
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/QuarkGame")
 
-# ---- Fetch dependencies ----
+# Fetch dependencies
 FetchContent_Declare(
   bx
   GIT_REPOSITORY https://github.com/bkaradzic/bx.git
@@ -61,7 +61,6 @@ add_library(QuarkEngine STATIC
  
 target_include_directories(QuarkEngine PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/Header)
 
-# Link libraries
 target_link_libraries(QuarkEngine
     PUBLIC
         SDL3::SDL3
@@ -99,8 +98,8 @@ bgfx_compile_shaders(
     OUTPUT_DIR ${CMAKE_BINARY_DIR}/include/generated/shaders
     AS_HEADERS
     DEPENDS build_shaderc
-    FORCE_REBUILD OFF
-    PROFILES glsl spirv
+    INCLUDE_DIR ${CMAKE_BINARY_DIR}/_deps/bgfx-src/bgfx/src
+    
 )
 
 # Fragment shader compilation
@@ -111,8 +110,7 @@ bgfx_compile_shaders(
     OUTPUT_DIR ${CMAKE_BINARY_DIR}/include/generated/shaders
     AS_HEADERS
     DEPENDS build_shaderc
-    FORCE_REBUILD OFF
-    PROFILES glsl spirv
+    INCLUDE_DIR ${CMAKE_BINARY_DIR}/_deps/bgfx-src/bgfx/src
 )
 
 # Include generated shader headers
