@@ -3,7 +3,8 @@
 #include "TimeManager.h"
 #include "EngineApp.h"
 #include <SDL3/SDL.h>
-
+#include "Components/TransformComp.h"
+#include "Components/RendererComp.h"
 EngineCore::EngineCore() {
 	
 }
@@ -15,6 +16,7 @@ EngineCore::~EngineCore() {
 bool EngineCore::Initialize() 
 {
 
+	
 	//initilising systems
 	timeManager = std::make_unique<TimeManager>();
 	timeManager->init();
@@ -40,8 +42,25 @@ bool EngineCore::Initialize()
 	{
 		return false;
 	}
+
+
+
+	//testing obj
+	gameObj = new GameObject();
+	TransformComp* transform = gameObj->AddComponent<TransformComp>();
+	transform->x = 0;
+	transform->y = 0;
+	transform->scaleX = 100.f;
+	transform->scaleY = 100.f;
+
+	RendererComp* renderComp = gameObj->AddComponent<RendererComp>(txtManager.get());
+	renderComp->setTexture("QuarkGame/assets/pngTest.jpg");
+	gameObjects.emplace_back(gameObj);
+
+
 	running = true;
 	return true;
+	
 }
 
 void EngineCore::RendererFrame()
@@ -53,7 +72,11 @@ void EngineCore::RendererFrame()
 		return;
 	}
 	rendererI->BeginFrame();
-	rendererI->DrawTestQuad();
+	for (GameObject* object : gameObjects)
+	{
+		object->Render();
+	}
+	//rendererI->DrawTestQuad();
 	rendererI->EndFrame();
 }
 

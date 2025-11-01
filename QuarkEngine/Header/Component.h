@@ -1,19 +1,15 @@
 #pragma once
-#include "GameObject.h"
-
-//class GameObject;
+class GameObject;
 class Component
 {
 public:
-	
-	Component() : m_GameObj(nullptr) {}
-	Component(GameObject* gameObj) : m_GameObj{ gameObj } {}
+	GameObject* gameObj = nullptr;
+	Component() : gameObj(nullptr) {}
+	Component(GameObject* object) : gameObj{ object } {}
 	virtual ~Component() {}
-	virtual void Start() = 0;
-	virtual void Update(float dt) = 0;
-	virtual void Render() = 0;
-
+	virtual void Start() {}
+	virtual void Update(float dt) {}
+	virtual void Render() {}
+	void setOwner(GameObject* owner) { gameObj = owner; }
 private:
-protected:
-	GameObject* m_GameObj;
 };

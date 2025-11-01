@@ -2,7 +2,7 @@
 #define STB_IMAGE_IMPLEMENTATION
 #include "include/stb_image.h"
 std::unordered_map<std::string, bgfx::TextureHandle> TextureManager::textures;
-bgfx::TextureHandle TextureManager::loadTexture(std::string& path)
+bgfx::TextureHandle TextureManager::loadTexture(const std::string& path)
 {
 	auto it = textures.find(path);
 	if (it != textures.end())
@@ -28,7 +28,7 @@ void TextureManager::shutdown()
 
 }
 
-bgfx::TextureHandle TextureManager::loadFromFile(std::string& path)
+bgfx::TextureHandle TextureManager::loadFromFile(const std::string& path)
 {
 	int width, hieght, channels;
 	auto* data = stbi_load(path.c_str(), &width, &hieght, &channels, 4);

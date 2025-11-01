@@ -12,11 +12,14 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(SDL3)
 
+
+add_subdirectory(lib/bgfx.cmake)
 # ---- Engine library ----
 add_library(QuarkEngine STATIC
     EngineCore.cpp
     EngineApp.cpp
     TimeManager.cpp
+    GameObject.cpp
     Header/InterfaceRenderer.h
     Header/EngineApp.h
     Header/Renderer.h
@@ -24,26 +27,28 @@ add_library(QuarkEngine STATIC
     Header/EngineCore.h
     Header/GameObject.h
     Header/Component.h
-    Compenents/TransformComp.h
-    Compenents/RendererComp.h
-    Compenents/RendererComp.cpp
+    Components/TransformComp.h
+    Components/TransformComp.cpp
+    Components/RendererComp.h
+    Components/RendererComp.cpp
     Renderer.cpp
     TextureManager.cpp
     shader/vs_shader.sc
     shader/fs_shader.sc
-   
-
+    
 )
-add_subdirectory(lib/bgfx.cmake)
-target_include_directories(QuarkEngine PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/Header)
-target_include_directories(QuarkEngine PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/lib)
-
+target_include_directories(QuarkEngine PUBLIC 
+    ${CMAKE_CURRENT_SOURCE_DIR}/Header
+    ${CMAKE_CURRENT_SOURCE_DIR}/Components
+    ${CMAKE_CURRENT_SOURCE_DIR}/lib/bgfx.cmake/examples/common
+    
+)
 target_link_libraries(QuarkEngine
     PUBLIC
         SDL3::SDL3
         bgfx
         bimg
-        bx
+        bx     
 )
 
 # Required on Windows so SDL doesn't redefine main()

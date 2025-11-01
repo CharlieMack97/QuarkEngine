@@ -3,6 +3,9 @@
 #include <memory>
 #include <iostream>
 #include "Component.h"
+#include "RendererComp.h"
+#include "TransformComp.h"
+
 class GameObject
 {
 public:
@@ -14,7 +17,7 @@ public:
 	T* AddComponent(Args&&... args)
 	{
 		auto comp = std::make_unique<T>(std::forward<Args>(args)...);
-		comp->SetOwner(this);
+		comp->setOwner(this);
 		T* ptr = comp.get();
 		m_Comps.push_back(std::move(comp));
 		return ptr;

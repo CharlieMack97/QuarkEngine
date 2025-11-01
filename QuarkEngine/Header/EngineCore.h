@@ -7,6 +7,7 @@
 #include "TimeManager.h"
 #include <bx/uint32_t.h>
 #include "Header/GameObject.h"
+
 class EngineCore {
 public:
     EngineCore();
@@ -23,7 +24,9 @@ private:
     bool running = false;
     std::unique_ptr<InterfaceRenderer> rendererI;
     std::unique_ptr <TextureManager> txtManager;
-    std::vector<GameObject> gameObjects;
+    std::vector<GameObject*> gameObjects;
+    //testing
+    GameObject* gameObj;
 };
 
 

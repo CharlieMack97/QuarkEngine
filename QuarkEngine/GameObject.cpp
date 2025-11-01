@@ -1,7 +1,7 @@
 #include "GameObject.h"
 
 
-void GameObj::Start()
+void GameObject::Start()
 {
 	for (auto const& c : m_Comps)
 	{
@@ -9,7 +9,7 @@ void GameObj::Start()
 	}
 }
 
-void GameObj::Update(float dt)
+void GameObject::Update(float dt)
 {
 	for (auto const& c : m_Comps)
 	{
@@ -17,7 +17,7 @@ void GameObj::Update(float dt)
 	}
 }
 
-void GameObj::Render()
+void GameObject::Render()
 {
 	for (auto const& c : m_Comps)
 		c->Render();  // only renderer components will do something
