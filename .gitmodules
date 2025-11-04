@@ -1,0 +1,3 @@
+[submodule "QuarkEngine/lib/bgfx.cmake"]
+	path = QuarkEngine/lib/bgfx.cmake
+	url = https://github.com/bkaradzic/bgfx.cmake
