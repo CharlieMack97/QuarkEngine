@@ -5,6 +5,6 @@ $output v_color0
 
 void main()
 {
-    gl_Position = vec4(a_position.xyz, 1.0f);
-    v_color0 = a_color0;
+    gl_Position = vec4(a_position,0.f, 1.0f);
+    v_color0 = vec4(1.f,0.f,1.f,1.f);
 }

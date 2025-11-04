@@ -1,6 +1,7 @@
 #include "TextureManager.h"
 #define STB_IMAGE_IMPLEMENTATION
 #include "include/stb_image.h"
+#include <iostream>
 std::unordered_map<std::string, bgfx::TextureHandle> TextureManager::textures;
 bgfx::TextureHandle TextureManager::loadTexture(const std::string& path)
 {
@@ -34,7 +35,9 @@ bgfx::TextureHandle TextureManager::loadFromFile(const std::string& path)
 	auto* data = stbi_load(path.c_str(), &width, &hieght, &channels, 4);
 	if (!data)
 	{
+		std::cerr << "failed" << stbi_failure_reason() << "/n";
 		return BGFX_INVALID_HANDLE;
+		
 	}
 
 	const bgfx::Memory* memPtr = bgfx::copy(data, width * hieght * 4);

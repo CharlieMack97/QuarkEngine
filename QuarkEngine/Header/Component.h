@@ -1,4 +1,5 @@
 #pragma once
+#include <cstdint>
 class GameObject;
 class Component
 {
@@ -9,7 +10,7 @@ public:
 	virtual ~Component() {}
 	virtual void Start() {}
 	virtual void Update(float dt) {}
-	virtual void Render() {}
+	virtual void Render(uint32_t screenWidth, uint32_t screenHeight) {}
 	void setOwner(GameObject* owner) { gameObj = owner; }
 private:
 };

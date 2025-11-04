@@ -12,8 +12,10 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(SDL3)
 
-
+set(BGFX_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
+set(BGFX_BUILD_TOOLS ON CACHE BOOL "" FORCE)
 add_subdirectory(lib/bgfx.cmake)
+
 # ---- Engine library ----
 add_library(QuarkEngine STATIC
     EngineCore.cpp
@@ -36,13 +38,16 @@ add_library(QuarkEngine STATIC
     shader/vs_shader.sc
     shader/fs_shader.sc
     
-)
+ "Header/bgfxUtils.h" "bgfxUtils.cpp")
+
+
 target_include_directories(QuarkEngine PUBLIC 
     ${CMAKE_CURRENT_SOURCE_DIR}/Header
     ${CMAKE_CURRENT_SOURCE_DIR}/Components
-    ${CMAKE_CURRENT_SOURCE_DIR}/lib/bgfx.cmake/examples/common
+    ${CMAKE_CURRENT_SOURCE_DIR}/lib/bgfx.cmake/
     
 )
+
 target_link_libraries(QuarkEngine
     PUBLIC
         SDL3::SDL3

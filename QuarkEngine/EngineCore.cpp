@@ -5,6 +5,8 @@
 #include <SDL3/SDL.h>
 #include "Components/TransformComp.h"
 #include "Components/RendererComp.h"
+#include <bgfx/bgfx.h>
+static uint32_t frameNum = 0;
 EngineCore::EngineCore() {
 	
 }
@@ -50,11 +52,11 @@ bool EngineCore::Initialize()
 	TransformComp* transform = gameObj->AddComponent<TransformComp>();
 	transform->x = 0;
 	transform->y = 0;
-	transform->scaleX = 100.f;
-	transform->scaleY = 100.f;
+	transform->scaleX = 1.f;
+	transform->scaleY = 1.f;
 
 	RendererComp* renderComp = gameObj->AddComponent<RendererComp>(txtManager.get());
-	renderComp->setTexture("QuarkGame/assets/pngTest.jpg");
+	renderComp->setTexture("C:/QuarkEngine/QuarkGame/assets/pngTest.jpg"); 
 	gameObjects.emplace_back(gameObj);
 
 
@@ -71,12 +73,15 @@ void EngineCore::RendererFrame()
 		std::cerr << "Renderer not initialized!" << std::endl;
 		return;
 	}
+	frameNum++;
+
 	rendererI->BeginFrame();
+	bgfx::dbgTextClear();
+	bgfx::dbgTextPrintf(0, 0, 0x0f, "Frame: %llu", frameNum);
 	for (GameObject* object : gameObjects)
 	{
 		object->Render();
 	}
-	//rendererI->DrawTestQuad();
 	rendererI->EndFrame();
 }
 
