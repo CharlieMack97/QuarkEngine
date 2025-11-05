@@ -9,6 +9,7 @@ public:
 	Component(GameObject* object) : gameObj{ object } {}
 	virtual ~Component() {}
 	virtual void Start() {}
+	virtual void Destroy() {}
 	virtual void Update(float dt) {}
 	virtual void Render(uint32_t screenWidth, uint32_t screenHeight) {}
 	void setOwner(GameObject* owner) { gameObj = owner; }

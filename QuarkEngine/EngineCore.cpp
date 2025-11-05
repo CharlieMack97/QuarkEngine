@@ -23,42 +23,28 @@ bool EngineCore::Initialize()
 	timeManager = std::make_unique<TimeManager>();
 	timeManager->init();
 
-
-	SDL_SetError("SDL Init failed logging test");
-	if (!SDL_Init(SDL_INIT_VIDEO)) {
-		std::cerr << "SDL_Init failed: " << SDL_GetError() << '\n';
-		return false;
-	}
-
-	window = SDL_CreateWindow("Hello QuarkEngine!", 800, 600, SDL_WINDOW_RESIZABLE);
-	if (!window) {
-		std::cerr << "Window creation failed: " << SDL_GetError() << '\n';
-		SDL_Quit();
-		return false;
-	}
-	SDL_PropertiesID props = SDL_GetWindowProperties(window);
-	void* nativeWindowHandle = SDL_GetPointerProperty(props, SDL_PROP_WINDOW_WIN32_HWND_POINTER, &nativeWindowHandle);
 	rendererI= std::make_unique<Renderer>();
+	rendererI->Init();
 	txtManager = std::make_unique<TextureManager>();
-	if (!rendererI->Init(nativeWindowHandle, 800, 600))
-	{
-		return false;
-	}
+
 
 
 
 	//testing obj
 	gameObj = new GameObject();
 	TransformComp* transform = gameObj->AddComponent<TransformComp>();
-	transform->x = 0;
-	transform->y = 0;
-	transform->scaleX = 1.f;
-	transform->scaleY = 1.f;
-
+	transform->x = 100;
+	transform->y = 100;
+	transform->scaleX = 100.f;
+	transform->scaleY = 100.f;
+	transform->rotation = 0;
 	RendererComp* renderComp = gameObj->AddComponent<RendererComp>(txtManager.get());
 	renderComp->setTexture("C:/QuarkEngine/QuarkGame/assets/pngTest.jpg"); 
-	gameObjects.emplace_back(gameObj);
-
+	gameObjects.push_back(gameObj);
+	for (GameObject* object : gameObjects)
+	{
+		object->Start();
+	}
 
 	running = true;
 	return true;
@@ -76,12 +62,17 @@ void EngineCore::RendererFrame()
 	frameNum++;
 
 	rendererI->BeginFrame();
-	bgfx::dbgTextClear();
-	bgfx::dbgTextPrintf(0, 0, 0x0f, "Frame: %llu", frameNum);
-	for (GameObject* object : gameObjects)
+	//bgfx::dbgTextClear();
+	//bgfx::dbgTextPrintf(0, 0, 0x0f, "Frame: %llu", frameNum);
+	
+	/*for (GameObject* object : gameObjects)
 	{
 		object->Render();
-	}
+	}*/
+	
+	gameObj->Render();
+	
+
 	rendererI->EndFrame();
 }
 
@@ -92,6 +83,7 @@ void EngineCore::RunMainLoop() {
 			if (event.type == SDL_EVENT_QUIT) {
 				running = false;
 			}
+			
 		}
 		SDL_Delay(16);  // ~60fps delay
 		timeManager->update();
@@ -104,10 +96,6 @@ void EngineCore::Shutdown() {
 	if (txtManager)
 	{
 		txtManager->shutdown();
-	}
-	if (window) {
-		SDL_DestroyWindow(window);
-		window = nullptr;
 	}
 	SDL_Quit();
 }

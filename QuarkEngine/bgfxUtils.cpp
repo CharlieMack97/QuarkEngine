@@ -3,23 +3,50 @@
 #include <cstdio>
 #include <cstring>
 #include <filesystem>
+#include <bx/bx.h>
 
-const bgfx::Memory* loadEmbeddedShader(const uint8_t* data, size_t size)
+#include <fstream>
+#include <vector>
+#include <string>
+//const bgfx::Memory* loadEmbeddedShader(const uint8_t* data, size_t size)
+//{
+//    const bgfx::Memory* mem = bgfx::alloc(uint32_t(size));
+//    bx::memCopy(mem->data, data, size);
+//    return mem;
+//}
+bgfx::ShaderHandle loadEmbeddedShader(const uint8_t* data, size_t size)
 {
-    const bgfx::Memory* mem = bgfx::alloc(uint32_t(size));
-    bx::memCopy(mem->data, data, size);
-    return mem;
+    return bgfx::createShader(bgfx::makeRef(data, size));
 }
 
+//bgfx::ShaderHandle loadEmbeddedShaderHandle(const uint8_t* data, size_t size, const char* name)
+//{
+//    const bgfx::Memory* mem = loadEmbeddedShader(data, size);
+//    bgfx::ShaderHandle handle = bgfx::createShader(mem);
+//    bgfx::setName(handle, name);
+//    return handle;
+//}
 
-bgfx::ShaderHandle loadEmbeddedShaderHandle(const uint8_t* data, size_t size, const char* name)
+bgfx::ShaderHandle loadShader(const char* path)
 {
-    const bgfx::Memory* mem = loadEmbeddedShader(data, size);
-    bgfx::ShaderHandle handle = bgfx::createShader(mem);
-    bgfx::setName(handle, name);
-    return handle;
-}
+    std::ifstream file(path, std::ios::binary | std::ios::ate);
+    if (!file.is_open())
+    {
+        throw std::runtime_error(std::string("Failed to open shader: ") + path);
+    }
 
+    auto size = file.tellg();
+    if (size <= 0)
+    {
+        throw std::runtime_error("Shader file is empty or invalid: " + std::string(path));
+    }
+
+    std::vector<char> data(static_cast<size_t>(size));
+    file.seekg(0);
+    file.read(data.data(), size);
+
+    return bgfx::createShader(bgfx::copy(data.data(), static_cast<uint32_t>(size)));
+}
 
 
 const char* getShaderRoot() { return "C:/QuarkEngine/out/build/x64-Debug/QuarkEngine/shaders/"; }
@@ -48,27 +75,27 @@ static const bgfx::Memory* loadMemory(const bx::StringView& filePath)
     mem->data[mem->size - 1] = '\0'; // Null-terminate just in case
     return mem;
 }
-bgfx::ShaderHandle loadShader(bx::StringView name, const char* shaderFolder)
+//bgfx::ShaderHandle loadShader(bx::StringView name, const char* shaderFolder)
+//{
+//    char filePath[512];
+//    bx::snprintf(filePath, BX_COUNTOF(filePath),
+//        "%s%.*s.sc.bin",
+//        shaderFolder,
+//        (int)name.getLength(),
+//        name.getPtr());
+//
+//    bx::StringView filePathView(filePath, strlen(filePath));
+//    const bgfx::Memory* mem = loadMemory(filePathView);
+//    if (!mem)
+//        return BGFX_INVALID_HANDLE;
+//
+//    bgfx::ShaderHandle handle = bgfx::createShader(mem);
+//    bgfx::setName(handle, name.getPtr());
+//    return handle;
+//}
+bgfx::ProgramHandle loadProg(const char* _vsName, const char* _fsName, const char* shaderFolder)
 {
-    char filePath[512];
-    bx::snprintf(filePath, BX_COUNTOF(filePath),
-        "%s%.*s.sc.bin",
-        shaderFolder,
-        (int)name.getLength(),
-        name.getPtr());
-
-    bx::StringView filePathView(filePath, strlen(filePath));
-    const bgfx::Memory* mem = loadMemory(filePathView);
-    if (!mem)
-        return BGFX_INVALID_HANDLE;
-
-    bgfx::ShaderHandle handle = bgfx::createShader(mem);
-    bgfx::setName(handle, name.getPtr());
-    return handle;
-}
-bgfx::ProgramHandle loadProg(const bx::StringView& _vsName, const bx::StringView& _fsName, const char* shaderFolder)
-{
-    bgfx::ShaderHandle vsh = loadShader(_vsName, shaderFolder);
-    bgfx::ShaderHandle fsh = loadShader(_fsName, shaderFolder);
+    bgfx::ShaderHandle vsh = loadShader(_vsName);
+    bgfx::ShaderHandle fsh = loadShader(_fsName);
     return bgfx::createProgram(vsh, fsh, true);
 }

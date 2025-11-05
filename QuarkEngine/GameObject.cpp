@@ -21,7 +21,7 @@ void GameObject::Render()
 {
 	for (auto const& c : m_Comps)
 	{
-		c->Start();
+		
 		c->Render(800, 600);  // only renderer components will do something
 	}
 }

@@ -19,7 +19,7 @@ public:
     void Shutdown();
     TextureManager* getTextureManager();
 private:
-    SDL_Window* window = nullptr;
+   
     std::unique_ptr<TimeManager> timeManager;
     bool running = false;
     std::unique_ptr<InterfaceRenderer> rendererI;

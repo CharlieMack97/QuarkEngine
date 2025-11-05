@@ -19,7 +19,7 @@ public:
 	RendererComp() : textManager(nullptr) {}
 	RendererComp(TextureManager* textMgr) : textManager(textMgr) {}
 	void Start();
-
+	void Destroy();
 	void setTexture(const std::string& path);
 	void Render(uint32_t screenWidth, uint32_t screenHeight) override;
 private:

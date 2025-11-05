@@ -4,67 +4,94 @@
 #include "bgfxUtils.h"
 #include "TextureManager.h"
 #include <filesystem>
-#include "../../out/build/x64-Debug/include/generated/shaders/dx11/vs_shader.sc.bin.h"
-#include "../../out/build/x64-Debug/include/generated/shaders/dx11/fs_shader.sc.bin.h"
+//#include "../../out/build/x64-Debug/include/generated/shaders/dx11/vs_shader.sc.bin.h"
+//#include "../../out/build/x64-Debug/include/generated/shaders/dx11/fs_shader.sc.bin.h"
+//#include "../lib/bgfx.cmake/bgfx/include/bgfx/embedded_shader.h"
+//#include <../../out/build/x64-Debug/QuarkEngine/include/generated/shaders/vs_shader.sc.bin.h>
+
+#include "C:/QuarkEngine/out/build/x64-Debug/include/generated/shaders/dx11/fs_shader.sc.bin.h"
+#include "C:/QuarkEngine/out/build/x64-Debug/include/generated/shaders/dx11/vs_shader.sc.bin.h"
+
+
 struct PosColorVertex
 {
 
-	float x;
-	float y;
-	float z;
-
+	float m_x;
+	float m_y;
+	float m_z;
+	uint32_t abgr;
+	float m_u;
+	float m_v;
 	static void init()
 	{
-		layout.begin()
+		m_layout;
+		m_layout.begin()
 			.add(bgfx::Attrib::Position, 3, bgfx::AttribType::Float)
+			.add(bgfx::Attrib::Color0, 4, bgfx::AttribType::Uint8, true)
+			.add(bgfx::Attrib::TexCoord0, 2, bgfx::AttribType::Float)
 			.end();
 	}
 
-	static bgfx::VertexLayout layout;
+	static bgfx::VertexLayout m_layout;
 };
-bgfx::VertexLayout PosColorVertex::layout;
+bgfx::VertexLayout PosColorVertex::m_layout;
 static PosColorVertex vertices[] =
 {
-	{ -1.f,  1.f},
-	{  1.f,  1.f},
-	{ -1.f, -1.f},
-	{  1.f, -1.f}
+	{-0.5f, 0.5f,0.0f,0xffffffff,0.f,1.f},
+	{0.5f, 0.5f,0.0f,0xffff00ff,1.f,1.f},
+	{0.5f, -0.5f,0.0f,0xffffffff,1.f,0.f},
+	{-0.5f, -0.5f,0.0f,0xffff00ff,0.f,0.f},
 };
-const uint16_t indices[] = { 0, 1, 2, 1, 3, 2 };
+static const uint16_t indices[] = {2,1,0,0,3,2};
 
 
 void RendererComp::Start()
 {
 	
+	PosColorVertex::init();
+	vertex = bgfx::createVertexBuffer(bgfx::makeRef(vertices, sizeof(vertices)), PosColorVertex::m_layout);
+	index = bgfx::createIndexBuffer(bgfx::makeRef(indices, sizeof(indices)));
+
+
 	TransformComp* transform = gameObj->GetComponent<TransformComp>();
 	if (transform == nullptr)
 	{
 		return;
 	}
-	//bx::mtxScale(matrixScale, transform->scaleX, transform->scaleY, 1.f);
-	//bx::mtxRotateZ(matrixRotate, transform->rotation);
-	//bx::mtxTranslate(matrixTranslate, transform->x, transform->y, 0.f);
-
-	
 	bx::mtxIdentity(matrixScale);
 	bx::mtxIdentity(matrixRotate);
 	bx::mtxIdentity(matrixTranslate);
 	bx::mtxIdentity(matrix);
-	//bx::mtxMul(matrix, matrixScale, matrixRotate);
-	//bx::mtxMul(matrix, matrix, matrixTranslate);
 	
-	vsh = loadEmbeddedShaderHandle(vs_shader_dx11, sizeof(vs_shader_dx11), "vs_shader");
-	fsh = loadEmbeddedShaderHandle(fs_shader_dx11, sizeof(fs_shader_dx11), "fs_shader");
-	program = bgfx::createProgram(vsh,fsh,true);
+	
+	bx::mtxScale(matrixScale, transform->scaleX, transform->scaleY, 1.f);
+	//bx::mtxRotateZ(matrixRotate, transform->rotation);
+	bx::mtxTranslate(matrixTranslate, transform->x, transform->y, 0.f);
 
 	
+	bx::mtxMul(matrix, matrixScale, matrixRotate);
+	bx::mtxMul(matrix, matrix, matrixTranslate);
 
+	auto vs = loadEmbeddedShader(vs_shader_dx11, sizeof(vs_shader_dx11));
+	auto fs = loadEmbeddedShader(fs_shader_dx11, sizeof(fs_shader_dx11));
 	
-	
-	PosColorVertex::init();
+	program = bgfx::createProgram(vs,fs,true);
+	if (!bgfx::isValid(vs))
+		printf("Vertex shader failed to load!\n");
+	else
+		printf("Vertex shader loaded, handle id: %u\n", vs.idx);
 
-	vertex = bgfx::createVertexBuffer(bgfx::makeRef(vertices, sizeof(vertices)), PosColorVertex::layout);
-	index = bgfx::createIndexBuffer(bgfx::makeRef(indices, sizeof(indices)));
+	if (!bgfx::isValid(fs))
+		printf("Fragment shader failed to load!\n");
+	else
+		printf("Fragment shader loaded, handle id: %u\n", fs.idx);
+
+	if (!bgfx::isValid(program))
+		printf("Program failed to create!\n");
+	else
+		printf("Program created successfully, handle id: %u\n", program.idx);
+	s_texColor = bgfx::createUniform("s_texColor", bgfx::UniformType::Sampler);
+	
 	//s_texColor = bgfx::createUniform("s_texColor", bgfx::UniformType::Sampler);
 }
 void RendererComp::setTexture(const std::string& path)
@@ -78,17 +105,27 @@ void RendererComp::Render(uint32_t screenWidth, uint32_t screenHeight)
 	//	return;
 	//}
 
-	bgfx::setState(BGFX_STATE_WRITE_R
-		| BGFX_STATE_WRITE_G
-		| BGFX_STATE_WRITE_B
-		| BGFX_STATE_WRITE_A);
-	bgfx::setTransform(matrix);
+
+
 	bgfx::setVertexBuffer(0, vertex);
 	bgfx::setIndexBuffer(index);
 
-	//bgfx::setTexture(0, s_texColor, texture);
+	bgfx::setTransform(matrix);
+	/*bgfx::setState(BGFX_STATE_DEFAULT);*/
+	bgfx::setState(
+		BGFX_STATE_WRITE_RGB
+		| BGFX_STATE_WRITE_A
+		| BGFX_STATE_BLEND_ALPHA
+		/*| BGFX_STATE_PT_TRISTRIP*/
+		
+	);
 
-
+	bgfx::setTexture(0, s_texColor, texture);
 	bgfx::submit(0, program);
 	
+}
+void RendererComp::Destroy()
+{
+	bgfx::destroy(vertex);
+	bgfx::destroy(index);
 }
