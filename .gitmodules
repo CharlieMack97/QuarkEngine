@@ -1,3 +1,9 @@
 [submodule "QuarkEngine/lib/bgfx.cmake"]
 	path = QuarkEngine/lib/bgfx.cmake
 	url = https://github.com/bkaradzic/bgfx.cmake
+[submodule "QuarkEngine/lib/Gui"]
+	path = QuarkEngine/lib/Gui
+	url = https://github.com/ocornut/imgui.git
+[submodule "QuarkEngine/lib/Box2D"]
+	path = QuarkEngine/lib/Box2D
+	url = https://github.com/erincatto/box2d.git

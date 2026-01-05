@@ -15,7 +15,7 @@ FetchContent_MakeAvailable(SDL3)
 set(BGFX_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 set(BGFX_BUILD_TOOLS ON CACHE BOOL "" FORCE)
 add_subdirectory(lib/bgfx.cmake)
-
+add_subdirectory(lib/Box2D)
 # ---- Engine library ----
 add_library(QuarkEngine STATIC
     EngineCore.cpp
@@ -33,6 +33,8 @@ add_library(QuarkEngine STATIC
     Components/TransformComp.cpp
     Components/RendererComp.h
     Components/RendererComp.cpp
+    Components/PhysicsComp.h
+    Components/PhysicsComp.cpp
     Renderer.cpp
     TextureManager.cpp
     shader/vs_shader.sc
@@ -45,6 +47,8 @@ target_include_directories(QuarkEngine PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/Header
     ${CMAKE_CURRENT_SOURCE_DIR}/Components
     ${CMAKE_CURRENT_SOURCE_DIR}/lib/bgfx.cmake/
+    ${CMAKE_CURRENT_SOURCE_DIR}/lib/Gui
+    ${CMAKE_CURRENT_SOURCE_DIR}/lib/Box2D
     
 )
 
@@ -53,7 +57,8 @@ target_link_libraries(QuarkEngine
         SDL3::SDL3
         bgfx
         bimg
-        bx     
+        bx   
+        
 )
 
 # Required on Windows so SDL doesn't redefine main()

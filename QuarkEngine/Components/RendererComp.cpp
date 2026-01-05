@@ -9,8 +9,8 @@
 //#include "../lib/bgfx.cmake/bgfx/include/bgfx/embedded_shader.h"
 //#include <../../out/build/x64-Debug/QuarkEngine/include/generated/shaders/vs_shader.sc.bin.h>
 
-#include "C:/QuarkEngine/out/build/x64-Debug/include/generated/shaders/dx11/fs_shader.sc.bin.h"
-#include "C:/QuarkEngine/out/build/x64-Debug/include/generated/shaders/dx11/vs_shader.sc.bin.h"
+#include "C:/cmp315/QuarkEngine/out/build/x64-Debug/include/generated/shaders/dx11/fs_shader.sc.bin.h"
+#include "C:/cmp315/QuarkEngine/out/build/x64-Debug/include/generated/shaders/dx11/vs_shader.sc.bin.h"
 
 
 struct PosColorVertex

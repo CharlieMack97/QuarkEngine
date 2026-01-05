@@ -39,7 +39,7 @@ bool EngineCore::Initialize()
 	transform->scaleY = 100.f;
 	transform->rotation = 0;
 	RendererComp* renderComp = gameObj->AddComponent<RendererComp>(txtManager.get());
-	renderComp->setTexture("C:/QuarkEngine/QuarkGame/assets/pngTest.jpg"); 
+	renderComp->setTexture("C:/cmp315/QuarkEngine/QuarkGame/assets/pngTest.jpg"); 
 	gameObjects.push_back(gameObj);
 	for (GameObject* object : gameObjects)
 	{
