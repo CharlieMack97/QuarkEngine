@@ -40,7 +40,7 @@ add_library(QuarkEngine STATIC
     shader/vs_shader.sc
     shader/fs_shader.sc
     
- "Header/bgfxUtils.h" "bgfxUtils.cpp")
+ "Header/bgfxUtils.h" "bgfxUtils.cpp" "Header/PhysicsSystem.h" "Header/InputManager.h" "InputManager.cpp")
 
 
 target_include_directories(QuarkEngine PUBLIC 
@@ -48,7 +48,7 @@ target_include_directories(QuarkEngine PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/Components
     ${CMAKE_CURRENT_SOURCE_DIR}/lib/bgfx.cmake/
     ${CMAKE_CURRENT_SOURCE_DIR}/lib/Gui
-    ${CMAKE_CURRENT_SOURCE_DIR}/lib/Box2D
+    ${CMAKE_CURRENT_SOURCE_DIR}/lib/Box2D/include/
     
 )
 
@@ -57,7 +57,8 @@ target_link_libraries(QuarkEngine
         SDL3::SDL3
         bgfx
         bimg
-        bx   
+        bx
+        box2d
         
 )
 

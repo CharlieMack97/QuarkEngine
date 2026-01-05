@@ -9,8 +9,11 @@
 //#include "../lib/bgfx.cmake/bgfx/include/bgfx/embedded_shader.h"
 //#include <../../out/build/x64-Debug/QuarkEngine/include/generated/shaders/vs_shader.sc.bin.h>
 
-#include "C:/cmp315/QuarkEngine/out/build/x64-Debug/include/generated/shaders/dx11/fs_shader.sc.bin.h"
-#include "C:/cmp315/QuarkEngine/out/build/x64-Debug/include/generated/shaders/dx11/vs_shader.sc.bin.h"
+//#include "C:/cmp315/QuarkEngine/out/build/x64-Debug/include/generated/shaders/dx11/fs_shader.sc.bin.h"
+//#include "C:/cmp315/QuarkEngine/out/build/x64-Debug/include/generated/shaders/dx11/vs_shader.sc.bin.h"
+
+#include "../shader/fs_shader.sc.bin.h"
+#include "../shader/vs_shader.sc.bin.h"
 
 
 struct PosColorVertex
@@ -65,7 +68,7 @@ void RendererComp::Start()
 	
 	
 	bx::mtxScale(matrixScale, transform->scaleX, transform->scaleY, 1.f);
-	//bx::mtxRotateZ(matrixRotate, transform->rotation);
+	bx::mtxRotateZ(matrixRotate, transform->rotation);
 	bx::mtxTranslate(matrixTranslate, transform->x, transform->y, 0.f);
 
 	
@@ -105,7 +108,21 @@ void RendererComp::Render(uint32_t screenWidth, uint32_t screenHeight)
 	//	return;
 	//}
 
+	TransformComp* transform = gameObj->GetComponent<TransformComp>();
+	if (!transform) return;
 
+	// Recalculate transform matrix from current position/rotation/scale
+	bx::mtxIdentity(matrixScale);
+	bx::mtxIdentity(matrixRotate);
+	bx::mtxIdentity(matrixTranslate);
+	bx::mtxIdentity(matrix);
+
+	bx::mtxScale(matrixScale, transform->scaleX, transform->scaleY, 1.f);
+	bx::mtxRotateZ(matrixRotate, transform->rotation);
+	bx::mtxTranslate(matrixTranslate, transform->x, transform->y, 0.f);
+
+	bx::mtxMul(matrix, matrixScale, matrixRotate);
+	bx::mtxMul(matrix, matrix, matrixTranslate);
 
 	bgfx::setVertexBuffer(0, vertex);
 	bgfx::setIndexBuffer(index);

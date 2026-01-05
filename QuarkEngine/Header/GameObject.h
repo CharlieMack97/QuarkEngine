@@ -5,7 +5,7 @@
 #include "Component.h"
 #include "RendererComp.h"
 #include "TransformComp.h"
-
+#include "PhysicsComp.h"
 class GameObject
 {
 public:

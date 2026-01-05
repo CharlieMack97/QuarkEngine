@@ -1,17 +1,14 @@
 #pragma once
 #include "EngineCore.h"
-
-
-int main(int argc, char** argv) {
+#include "GameApp.h"
+int main()
+{
     EngineCore engine;
+    GameApp game;
 
-    if (!engine.Initialize()) {
-        // handle initialization failure
-        return -1;
-    }
-
+    engine.Initialize(&game);
     engine.RunMainLoop();
-
     engine.Shutdown();
+
     return 0;
 }
