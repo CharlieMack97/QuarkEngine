@@ -16,6 +16,7 @@ public:
     // Game lifecycle hooks
     virtual void OnStart();
     virtual void OnUpdate(float dt);
+    virtual void OnImGuiRender() {};
     virtual void OnRender();
     virtual void OnShutdown();
 

@@ -39,8 +39,14 @@ add_library(QuarkEngine STATIC
     TextureManager.cpp
     shader/vs_shader.sc
     shader/fs_shader.sc
+    lib/Gui/imgui.cpp
+    lib/Gui/imgui_draw.cpp
+    lib/Gui/imgui_tables.cpp
+    lib/Gui/imgui_widgets.cpp
+    lib/Gui/backends/imgui_impl_sdl3.cpp
+    lib/Gui/imgui_bgfx_impl.cpp
     
- "Header/bgfxUtils.h" "bgfxUtils.cpp" "Header/PhysicsSystem.h" "Header/InputManager.h" "InputManager.cpp")
+ "Header/bgfxUtils.h" "bgfxUtils.cpp" "Header/PhysicsSystem.h" "Header/InputManager.h" "InputManager.cpp" "lib/Gui/imgui_bgfx_impl.cpp")
 
 
 target_include_directories(QuarkEngine PUBLIC 

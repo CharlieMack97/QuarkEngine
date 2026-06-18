@@ -5,6 +5,9 @@
 #include <filesystem>
 #include <bx/math.h>
 #include <iostream>
+#include "imgui.h"
+#include "backends/imgui_impl_sdl3.h"
+#include "imgui_bgfx_impl.h"
 bool Renderer::Init()
 {
 	m_width = 1600;
@@ -34,12 +37,21 @@ bool Renderer::Init()
 	std:printf("bgfx did not init");
 		return false;
 	}
-	
+	//imgui
+	ImGui::CreateContext();
+	ImGuiIO& io = ImGui::GetIO();
+	io.DisplaySize = ImVec2((float)m_width, (float)m_hieght);
+	//backends init
+	ImGui_ImplSDL3_InitForOther(window);   
+	ImGui_Implbgfx_Init(255);             
 	return true;
 }
 
 void Renderer::Shutdown()
 {
+	ImGui_Implbgfx_Shutdown();
+	ImGui_ImplSDL3_Shutdown();
+	ImGui::DestroyContext();
 	bgfx::shutdown();
 }
 
@@ -98,11 +110,20 @@ void Renderer::BeginFrame()
 		
 		// Call touch to update view
 	}
+	//imgui rendering
+	ImGui_ImplSDL3_NewFrame();
+	ImGui_Implbgfx_NewFrame();
+	ImGui::NewFrame();
+
+
 	bgfx::touch(ClearView);
 }
 
 void Renderer::EndFrame()
 {
+	ImGui::Render();
+	ImGui_Implbgfx_RenderDrawLists(ImGui::GetDrawData());
+	
 	bgfx::frame();
 }
 

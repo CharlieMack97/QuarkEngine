@@ -6,6 +6,7 @@
 #include "Components/TransformComp.h"
 #include "Components/RendererComp.h"
 #include <bgfx/bgfx.h>
+#include <backends/imgui_impl_sdl3.h>
 static uint32_t frameNum = 0;
 EngineCore::EngineCore() {
 	
@@ -52,6 +53,7 @@ void EngineCore::RendererFrame()
 
 	if (appLayer)
 	{
+		appLayer->OnImGuiRender();
 		appLayer->OnRender();
 	}
 	rendererI->EndFrame();
@@ -62,6 +64,8 @@ void EngineCore::RunMainLoop() {
 	while (running) {
 		while (SDL_PollEvent(&event)) 
 		{
+			if (ImGui::GetCurrentContext() != nullptr)
+				ImGui_ImplSDL3_ProcessEvent(&event);
 			SDL_PumpEvents();
 			mouseInput.Update();
 			if (event.type == SDL_EVENT_QUIT) {

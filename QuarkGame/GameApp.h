@@ -1,5 +1,6 @@
 #pragma once
 #include "../QuarkEngine/Header/EngineApp.h"
+#include <imgui.h>
 class GameApp : public EngineApp
 {
 public:
@@ -9,10 +10,10 @@ public:
     {
         std::cout << "Working dir: " << SDL_GetBasePath() << std::endl;
         TextureManager* tex = engine->getTextureManager();
-        //tex->loadTexture("../../../../QuarkGame/assets/pngTest.jpg");
-        //tex->loadTexture("../../../../QuarkGame/assets/Lava.png");
-        tex->loadTexture("assets/pngTest.jpg");
-        tex->loadTexture("assets/Lava.png");
+        tex->loadTexture("../../../../QuarkGame/assets/pngTest.jpg");
+        tex->loadTexture("../../../../QuarkGame/assets/Lava.png");
+        //tex->loadTexture("assets/pngTest.jpg");
+        //tex->loadTexture("assets/Lava.png");
         // Create game objects, load assets, etc.
         GameObject* gameObj;
         GameObject* gameObj2;
@@ -27,8 +28,8 @@ public:
         transform->rotation = 0;
         RendererComp* renderComp = gameObj->AddComponent<RendererComp>(engine->getTextureManager());
         PhysicsComp* phys = gameObj->AddComponent<PhysicsComp>(engine->getWorldId(),*transform,1,1);
-        //renderComp->setTexture("../../../../QuarkGame/assets/pngTest.jpg");
-        renderComp->setTexture("assets/pngTest.jpg");
+        renderComp->setTexture("../../../../QuarkGame/assets/pngTest.jpg");
+     /*   renderComp->setTexture("assets/pngTest.jpg");*/
         
         TransformComp* transform2 = gameObj2->AddComponent<TransformComp>();
         transform2->x = 800;
@@ -38,9 +39,9 @@ public:
         transform2->rotation = 0;
         RendererComp* lava = gameObj2->AddComponent<RendererComp>(engine->getTextureManager());
         PhysicsComp* physic2 = gameObj2->AddComponent<PhysicsComp>(engine->getWorldId(), *transform, 1, 1);
-        //lava->setTexture("../../../../QuarkGame/assets/Lava.png");
-        lava->setTexture("assets/Lava.png");
-       
+        lava->setTexture("../../../../QuarkGame/assets/Lava.png");
+      /*  lava->setTexture("assets/Lava.png");
+       */
         
         gameObjects.push_back(gameObj);
         gameObjects.push_back(gameObj2);
@@ -94,7 +95,27 @@ public:
             object->Update(dt);
         }
     }
-
+    void OnImGuiRender() override
+    {
+        
+        ImGui::Begin("Game Objects");
+        for (size_t i = 0; i < gameObjects.size(); ++i)
+        {
+            GameObject* object = gameObjects[i];
+            if (ImGui::TreeNode((void*)(intptr_t)i, "GameObject %d", i))
+            {
+                TransformComp* transform = object->GetComponent<TransformComp>();
+                if (transform)
+                {
+                    ImGui::Text("Position: (%.2f, %.2f)", transform->x, transform->y);
+                    ImGui::Text("Scale: (%.2f, %.2f)", transform->scaleX, transform->scaleY);
+                    ImGui::Text("Rotation: %.2f", transform->rotation);
+                }
+                ImGui::TreePop();
+            }
+        }
+        ImGui::End();
+	}
     void OnRender() override
     {
         // Draw your game objects
