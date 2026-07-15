@@ -38,13 +38,7 @@ struct PosColorVertex
 	static bgfx::VertexLayout m_layout;
 };
 bgfx::VertexLayout PosColorVertex::m_layout;
-static PosColorVertex vertices[] =
-{
-	{-0.5f, 0.5f,0.0f,0xffffffff,0.f,1.f},
-	{0.5f, 0.5f,0.0f,0xffff00ff,1.f,1.f},
-	{0.5f, -0.5f,0.0f,0xffffffff,1.f,0.f},
-	{-0.5f, -0.5f,0.0f,0xffff00ff,0.f,0.f},
-};
+
 static const uint16_t indices[] = {2,1,0,0,3,2};
 
 
@@ -52,8 +46,16 @@ void RendererComp::Start()
 {
 	
 	PosColorVertex::init();
-	vertex = bgfx::createVertexBuffer(bgfx::makeRef(vertices, sizeof(vertices)), PosColorVertex::m_layout);
-	index = bgfx::createIndexBuffer(bgfx::makeRef(indices, sizeof(indices)));
+	static PosColorVertex vertices[] =
+	{
+		{-0.5f, 0.5f,0.0f,m_colour,0.f,1.f},
+		{0.5f, 0.5f,0.0f,m_colour,1.f,1.f},
+		{0.5f, -0.5f,0.0f,m_colour,1.f,0.f},
+		{-0.5f, -0.5f,0.0f,m_colour,0.f,0.f},
+	};
+
+	vertex = bgfx::createDynamicVertexBuffer(bgfx::copy(vertices, sizeof(vertices)), PosColorVertex::m_layout);
+	index = bgfx::createIndexBuffer(bgfx::copy(indices, sizeof(indices)));
 
 
 	TransformComp* transform = gameObj->GetComponent<TransformComp>();
@@ -100,6 +102,23 @@ void RendererComp::Start()
 void RendererComp::setTexture(const std::string& path)
 {
 	texture = textManager->loadTexture(path);
+}
+void RendererComp::SetColor(uint32_t abgr)
+{
+	m_colour = abgr;
+
+	PosColorVertex verts[] =
+	{
+		{-0.5f,  0.5f, 0.0f, m_colour, 0.f, 1.f},
+		{ 0.5f,  0.5f, 0.0f, m_colour, 1.f, 1.f},
+		{ 0.5f, -0.5f, 0.0f, m_colour, 1.f, 0.f},
+		{-0.5f, -0.5f, 0.0f, m_colour, 0.f, 0.f},
+	};
+
+	if (bgfx::isValid(vertex))
+	{
+		bgfx::update(vertex, 0, bgfx::copy(verts, sizeof(verts)));
+	}
 }
 void RendererComp::Render(uint32_t screenWidth, uint32_t screenHeight)
 {
