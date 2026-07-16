@@ -4,6 +4,6 @@
 
 inline std::string AssetPath(const std::string& relativePath)
 {
-    static std::string base = SDL_GetBasePath(); // cached — base path doesn't change at runtime
+    static std::string base = SDL_GetBasePath();
     return base + "assets/" + relativePath;
 }

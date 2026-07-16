@@ -26,16 +26,19 @@ bool EngineCore::Initialize(EngineApp* app)
 	timeManager = std::make_unique<TimeManager>();
 	timeManager->init();
 
+	sceneManager = std::make_unique<SceneManager>();
+	sceneManager->SetEngine(this);
+
 	rendererI = std::make_unique<Renderer>();
 	rendererI->Init();
 
 	txtManager = std::make_unique<TextureManager>();
-	//phys
+	//physsics
 	b2WorldDef worldDef = b2DefaultWorldDef();
 	worldDef.gravity = { 0.0f, 10.f }; 
 	physicsWorld = b2CreateWorld(&worldDef);
 
-	// Let the game layer initialize itself
+	//game layer initialize itself
 	if (appLayer)
 		appLayer->Initialize(this);
 
@@ -67,7 +70,7 @@ void EngineCore::RunMainLoop() {
 			if (ImGui::GetCurrentContext() != nullptr)
 				ImGui_ImplSDL3_ProcessEvent(&event);
 			SDL_PumpEvents();
-			mouseInput.Update();
+			inputManager.Update(); //Update input manager
 			if (event.type == SDL_EVENT_QUIT) {
 				running = false;
 			}
@@ -75,7 +78,7 @@ void EngineCore::RunMainLoop() {
 
 		SDL_Delay(16);
 
-		timeManager->update(); 
+		timeManager->update(); //time update manager
 		float dt = timeManager->getDeltaTime();
 		b2World_Step(physicsWorld, dt, 4);
 		CreateGround(2200, 2300, 100);

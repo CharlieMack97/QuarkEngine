@@ -9,6 +9,7 @@
 #include "Header/GameObject.h"
 #include <../Box2D/include/box2d/box2d.h>
 #include "InputManager.h"
+#include <SceneManager.h>
 class EngineApp;
 class EngineCore {
 public:
@@ -22,8 +23,8 @@ public:
     void CreateGround(float screenWidth, float screenHeight, float PPM);
     TextureManager* getTextureManager();
     b2WorldId getWorldId() { return physicsWorld; };
-    InputManager& getMouseInput() { return mouseInput; };
-
+    InputManager& getInputManager() { return inputManager; };
+	SceneManager& getSceneManager() { return *sceneManager; };
 private:
     EngineApp* appLayer = nullptr;
     std::unique_ptr<TimeManager> timeManager;
@@ -31,7 +32,8 @@ private:
     std::unique_ptr<InterfaceRenderer> rendererI;
     std::unique_ptr <TextureManager> txtManager;
     b2WorldId physicsWorld = b2_nullWorldId;
-    InputManager mouseInput;
+    InputManager inputManager;
+    std::unique_ptr<SceneManager> sceneManager;
     
 };
 

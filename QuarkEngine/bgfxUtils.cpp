@@ -72,7 +72,7 @@ static const bgfx::Memory* loadMemory(const bx::StringView& filePath)
     fread(mem->data, 1, size, file);
     fclose(file);
 
-    mem->data[mem->size - 1] = '\0'; // Null-terminate just in case
+    mem->data[mem->size - 1] = '\0'; //Null-terminate just in case
     return mem;
 }
 //bgfx::ShaderHandle loadShader(bx::StringView name, const char* shaderFolder)

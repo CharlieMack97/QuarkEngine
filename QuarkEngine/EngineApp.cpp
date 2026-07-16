@@ -15,21 +15,21 @@ void EngineApp::Initialize(EngineCore* core)
 
 void EngineApp::OnStart()
 {
-    // do nothing
+    
 }
 
 void EngineApp::OnUpdate(float dt)
 {
-    //do nothing
+   
 }
 
 void EngineApp::OnRender()
 {
-    // do nothing
+  
 }
 
 void EngineApp::OnShutdown()
 {
-    // do nothing
+   
 }
 

@@ -1,5 +1,5 @@
 
-add_executable(QuarkGame "main.cpp")
+add_executable(QuarkGame "main.cpp" "GameScene.h")
 target_link_libraries(QuarkGame PRIVATE QuarkEngine)
 target_include_directories(QuarkGame PRIVATE
     ${CMAKE_SOURCE_DIR}/QuarkEngine

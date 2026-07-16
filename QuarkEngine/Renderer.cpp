@@ -55,37 +55,16 @@ void Renderer::Shutdown()
 	bgfx::shutdown();
 }
 
-//void Renderer::BeginFrame()
-//{
-//	bgfx::ViewId ClearView = 0;
-//	if (m_width > 0 && m_hieght > 0)
-//	{
-//		bgfx::setViewClear(ClearView, BGFX_CLEAR_COLOR | BGFX_CLEAR_DEPTH, 0x303030ff,1.0f,0);
-//		const bx::Vec3 at = { 0.0f, 0.0f,  -1.0f };
-//		const bx::Vec3 eye = { 0.0f, 0.0f, 5.0f };
-//		float view[16];
-//		bx::mtxLookAt(view, eye, at);
-//		float proj[16];
-//		bx::mtxProj(proj, 60.0f, m_width / m_hieght, 0.1f, 100.0f, bgfx::getCaps()->homogeneousDepth);
-//		bgfx::setViewTransform(0, view, proj);
-//		bgfx::setViewRect(0, 0, 0, uint16_t(m_width), uint16_t(m_hieght));
-//		
-//		//bgfx::setViewRect(ClearView, 0, 0, static_cast<uint16_t>(m_width), static_cast<uint16_t>(m_hieght));
-//		bgfx::touch(ClearView);
-//	}
-//	
-//	
-//}
 void Renderer::BeginFrame()
 {
 	 
 
-	// Ortho projection (no perspective, just flat)
+	//Ortho projection (no perspective, just flat)
 	//float view[16], proj[16];
 
 	// Set up an orthographic projection for 2D rendering
 	//bx::mtxOrtho(proj, 0.0f, 800.f,0.f,600.f,0.f,1.f,1000.f, bgfx::getCaps()->homogeneousDepth);
-	//bx::mtxIdentity(view); // Identity matrix for no camera rotation/translation
+	//bx::mtxIdentity(view); //Identity matrix for no camera rotation/translation
 
 	// Apply the view and projection
 	//bgfx::setViewTransform(ClearView, view, proj);
@@ -138,7 +117,7 @@ void Renderer::clear(float a, float b, float c, float d)
 	bgfx::setViewClear(0, BGFX_CLEAR_COLOR, color);
 	bgfx::touch(0);
 }
-
+//test quad
 void Renderer::DrawTestQuad()
 {
 	bgfx::dbgTextClear();

@@ -46,7 +46,7 @@ add_library(QuarkEngine STATIC
     lib/Gui/backends/imgui_impl_sdl3.cpp
     lib/Gui/imgui_bgfx_impl.cpp
     
- "Header/bgfxUtils.h" "bgfxUtils.cpp" "Header/PhysicsSystem.h" "Header/InputManager.h" "InputManager.cpp" "lib/Gui/imgui_bgfx_impl.cpp" "Header/PathUtils.h")
+ "Header/bgfxUtils.h" "bgfxUtils.cpp" "Header/PhysicsSystem.h" "Header/InputManager.h" "InputManager.cpp" "lib/Gui/imgui_bgfx_impl.cpp" "Header/PathUtils.h" "Header/SceneManager.h" "Header/Scene.h")
 
 
 target_include_directories(QuarkEngine PUBLIC 

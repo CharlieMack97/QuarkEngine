@@ -22,7 +22,7 @@ void GameObject::Render()
 	for (auto const& c : m_Comps)
 	{
 		
-		c->Render(800, 600);  // only renderer components will do something
+		c->Render(1600, 900);  //only renderer components will do something
 	}
 }
 

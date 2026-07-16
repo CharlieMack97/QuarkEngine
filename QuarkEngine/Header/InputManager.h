@@ -16,9 +16,15 @@ public:
     int DeltaX() const { return deltaX; }
     int DeltaY() const { return deltaY; }
 
+    bool IsKeyDown(SDL_Scancode key) const;
+    bool WasKeyPressed(SDL_Scancode key) const;
+    bool WasKeyReleased(SDL_Scancode key) const;
 private:
     std::array<bool, 8> current{};
     std::array<bool, 8> previous{};
+
+    std::array<bool, SDL_SCANCODE_COUNT> keyCurrent{};
+    std::array<bool, SDL_SCANCODE_COUNT> keyPrevious{};
 
     int mouseX = 0, mouseY = 0;
     int lastX = 0, lastY = 0;
