@@ -14,7 +14,7 @@ PhysicsComp::PhysicsComp(b2WorldId world, TransformComp& transform, float width,
 
     body = b2CreateBody(world, &bodyDef);
 
-    // Box shape (half extents!)
+    // Box shape (half extents)
     b2Polygon box = b2MakeBox(width * 0.5f, height * 0.5f);
 
     // Shape definition

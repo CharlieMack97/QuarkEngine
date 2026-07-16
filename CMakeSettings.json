@@ -1,29 +1,32 @@
 ﻿{
   "configurations": [
     {
-        "name": "Ninja-x64-Debug",
-        "generator": "Ninja",
-        "configurationType": "Debug",
-        "inheritEnvironments": [ "msvc_x64_x64" ],
-        "buildRoot": "${projectDir}\\out\\build\\${name}",
-        "installRoot": "${projectDir}\\out\\install\\${name}",
-        "cmakeCommandArgs": "",
-        "buildCommandArgs": "",
-        "ctestCommandArgs": "",
-        "variables": [
-            {
-                "name": "CMAKE_MSVC_USE_BUILTIN_PDB_NAME",
-                "value": "ON"
-            },
-            {
-                "name": "CMAKE_C_FLAGS",
-                "value": "/Z7"
-            },
-            {
-                "name": "CMAKE_CXX_FLAGS",
-                "value": "/Z7"
-            }
-        ]
+      "name": "Ninja-x64-Debug",
+      "generator": "Ninja",
+      "configurationType": "Release",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "CMAKE_MSVC_USE_BUILTIN_PDB_NAME",
+          "value": "ON",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_C_FLAGS",
+          "value": "/Z7",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_CXX_FLAGS",
+          "value": "/Z7",
+          "type": "STRING"
+        }
+      ]
     }
   ]
 }
